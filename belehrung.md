@@ -126,7 +126,7 @@ Wo finden Sie den Erste-Hilfe-Kasten?
 [[ ]] Speiseraum
 [[X]] In allen Werkstätten
 [[ ]] Büro
-[[]] Eingangsbereich
+[[ ]] Eingangsbereich
 
 ********************************************************
 
