@@ -1,10 +1,10 @@
 <!--
-author:   Sebastian Zug, Volker Göhler
+author:   Sebastian Zug; Volker Göhler
 email:    sebastian.zug@informatik.tu-freiberg.de & volker.goehler@informatik.tu-freiberg.de
 
 version:  0.0.1
 language: de
-narrator: DE English Female
+narrator: German Female
 
 icon:     https://cross-lab.org/content/images/2021/11/Logo-mit-5-mehrfarbig.png
 -->
@@ -12,7 +12,7 @@ icon:     https://cross-lab.org/content/images/2021/11/Logo-mit-5-mehrfarbig.png
 
 # Belehrung über die Haus- und Werkstattordnung 
 
-<h3>Welche Feature könnte eine digitale Bewertung tragen? </h3>
+<h3>Welche Feature könnte eine digitale Bewertung tragen?</h3>
 
 Standort: BTZ Pirna
 
@@ -20,7 +20,7 @@ März 2025
 
 ----------------------------------------------
 
-> Dieses Dokument illustriert Gestaltungsmöglichkeiten bei der Umsetzung einer digitalen Belehrung über die Haus- und Werkstattordnung. Es zeigt, wie Features von LiaScript genutzt werden können. Dabei wurde nicht auf Vollständigkeit der Inhalte geachtet. 
+> Dieses Dokument illustriert Gestaltungsmöglichkeiten bei der Umsetzung einer digitalen Belehrung über die Haus- und Werkstattordnung. Es zeigt, wie Features von LiaScript genutzt werden können. Dabei wurde nicht auf Vollständigkeit der Inhalte geachtet.
 
 --------------
 
@@ -99,9 +99,9 @@ Alle Verletzungen, die während Ihrer Arbeit entstehen, sind im Erste-Hilfe-Buch
 [Quelle: GeoViewer Land Sachsen](https://geoviewer.sachsen.de/mapviewer/index.html?map=038bfc85-8574-4cbf-805a-50d1a6df643c)
 
 <map name="workmap">
-  <area shape="rect" coords="325,170,402,106" title="Computer" href="###Speiseraum" >
-  <area shape="rect" coords="406,256,557,188" title="Phone" href="###Tischlerei">
-  <area shape="circle" coords="440,413,545,301" title="Cup of coffee" href="###Parkplatz">
+  <area shape="rect" coords="325,170,402,106" href="#Speiseraum" >
+  <area shape="rect" coords="406,256,557,188" href="#Tischlerei">
+  <area shape="circle" coords="440,413,545,301" href="#Parkplatz">
 </map>
 
 ### Parkplatz
