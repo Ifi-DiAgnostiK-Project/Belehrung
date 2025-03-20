@@ -31,7 +31,7 @@ __Das Material entstand im Rahmen des DiagnostiK-Projekt der TU Bergakademie Fre
 
     --{{0}}--
 Hallo liebe Kursteilnehmer, in Vorbereitung unserer gemeinsamen Arbeit werden wir nun zunächst die Ordnungen der Handwerkskammer Dresden gemeinsam durcharbeiten und dabei auf die für diese Veranstaltung zentralen Vorgaben eingehen. Dafür habe ich drei Abschnitte vorgesehen, die wir nun Schritt für Schritt thematisieren. Diese umfasst die Belehrung aber auch allgemeine Hinweise zum Gelände des Ausbildungszentrums.
-!?[](media/Belehrung_Handwerkskammer_II.mp4)
+!?[](media/Belehrung_Handwerkskammer_II_1.webm)
 
 + Allgemeine Hausordnung
 + Werkstatt- und Laborordnung
@@ -90,7 +90,7 @@ Alle Verletzungen, die während Ihrer Arbeit entstehen, sind im Erste-Hilfe-Buch
 ## Das Gelände
 
     --{{0}}--
-!?[](media/Belehrung_Handwerkskammer_II.mp4)
+!?[](media/Belehrung_Handwerkskammer_II_2.webm)
 
 > _Die Karte zeigt das Gelände des Ausbildungszentrums Pirna. Klicken Sie auf die markierten Bereiche, um mehr Informationen zu erhalten._
 
