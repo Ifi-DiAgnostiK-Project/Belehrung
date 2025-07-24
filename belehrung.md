@@ -7,6 +7,11 @@ language: de
 narrator: German Female
 
 icon:     https://uelu-digital.de/content/images/2025/03/WortBildMarkeSlogan_variante2_cropped.svg
+
+title: Belehrung über die Haus- und Werkstattordnung BTZ Pirna
+
+tags:
+  - Belehrung
 -->
 
 
