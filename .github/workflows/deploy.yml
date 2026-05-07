@@ -1,0 +1,74 @@
+name: Deploy DiAgnostiK to GitHub Pages
+
+on:
+    push:
+        branches:
+            - main
+
+permissions:
+    contents: write
+
+jobs:
+    build-and-deploy:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+
+            - name: Set up Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: "22"
+
+            - name: Install LiaScript Exporter
+              run: npm install -g @liascript/exporter
+
+            - name: Install Chromium system dependencies (for PDF generation)
+              run: |
+                  sudo apt-get update
+                  sudo apt-get install -y \
+                    libgbm-dev libatk1.0-0 libatk-bridge2.0-0 libcups2 libdrm2 \
+                    libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 \
+                    libpango-1.0-0 libcairo2 libasound2t64 libnss3 libnspr4 \
+                    fonts-liberation ca-certificates wget
+
+            - name: Generate all project pages
+              env:
+                  PUPPETEER_ARGS: "--no-sandbox --disable-setuid-sandbox"
+              run: |
+                  liaex -f project -i project.yaml -o index --project-search --project-generate-pdf --project-generate-scorm12 --project-generate-scorm2004
+
+            - name: Prepare deployment directory
+              run: |
+                  mkdir -p gh-pages-deploy
+                  # Generated HTML files
+                  cp index.html gh-pages-deploy/
+                  # Generated PDFs — preserve subdirectory structure relative to project/
+                  find project -name "*.pdf" | while read f; do
+                    rel="${f#project/}"
+                    mkdir -p "gh-pages-deploy/$(dirname "$rel")"
+                    cp "$f" "gh-pages-deploy/$rel"
+                  done
+                  # Generated SCORM packages (ZIP) — preserve subdirectory structure
+                  find project -name "*.zip" | while read f; do
+                    rel="${f#project/}"
+                    mkdir -p "gh-pages-deploy/$(dirname "$rel")"
+                    cp "$f" "gh-pages-deploy/$rel"
+                  done
+                  # Assets (images, CSS) referenced by the project pages
+                  cp -r assets gh-pages-deploy/
+
+            - name: Deploy to GitHub Pages
+              uses: peaceiris/actions-gh-pages@v4
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  publish_branch: gh-pages
+                  publish_dir: gh-pages-deploy
+                  force_orphan: true
+                  commit_message: "Deploy: ${{ github.event.head_commit.message }}"
+
+            - name: Output deployed URL
+              run: |
+                  echo "✅ Deployed successfully!"
+                  echo "URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"

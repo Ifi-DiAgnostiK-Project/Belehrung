@@ -1,0 +1,104 @@
+title: >
+  <span style="background-color: rgba(26, 47, 94, 0.75); padding: 10px; color: white; border-radius: 5px;">
+    DiAgnostiK Lehr- und Lernraum
+  </span>
+
+comment: >
+  <br>
+  <span style="background-color: rgba(201, 168, 76, 0.75); padding: 8px; color: white; border-radius: 5px;">
+    Belehrungen
+  </span>
+
+logo: https://ifi-diagnostik-project.github.io/assets/img/slogan_hero.jpg
+icon: https://ifi-diagnostik-project.github.io/assets/img/Logo_234px.png
+
+navbar:
+  brand: >
+    <span>
+    <img src="https://ifi-diagnostik-project.github.io/assets/img/Logo_234px.png" style="height:28px;object-fit:contain;margin-right:8px;" alt="DiAgnostiK Logo">
+    DiAgnostiK
+    </span>
+  url: https://ifi-diagnostik-project.github.io
+  background: "#1A2F5E"
+  theme: dark
+  links:
+    - label: Tischlerei
+      url: https://ifi-diagnostik-project.github.io/Tischlerei
+    - label: Sanitär, Heizung, Klima (SHK)
+      url: https://ifi-diagnostik-project.github.io/Sanitaer-Heizung-Klima/
+    - label: Zahntechnik
+      url: https://ifi-diagnostik-project.github.io/Zahntechnik
+    - label: Malerhandwerk
+      url: https://ifi-diagnostik-project.github.io/Malerhandwerk
+    - label: Raumaustattung
+      url: https://ifi-diagnostik-project.github.io/Raumausstattung
+    - label: Belehrungen
+      active: true
+      url: https://ifi-diagnostik-project.github.io/Belehrung
+    - label: Arbeits- und Gesundheitsschutz
+      url: https://ifi-diagnostik-project.github.io/Arbeits--und-Gesundheitsschutz
+    - label: Umfragen
+      url: https://ifi-diagnostik-project.github.io/Befragungen
+    - label: Wissensspeicher
+      url: https://ifi-diagnostik-project.github.io/Wissensspeicher
+    - label: Experimente
+      url: https://ifi-diagnostik-project.github.io/Experimente
+
+
+footer: >
+  <div class="d-flex flex-wrap align-items-center justify-content-between gap-3 py-1 w-100">
+    <div>
+      <div class="text-uppercase small mb-1" style="letter-spacing:.07em;font-size:.72em;">Webseite</div>
+      <a href="https://uelu-digital.de/" class="fw-semibold text-decoration-none" style="color:#C9A84C;">uelu-digital.de</a>
+    </div>
+    <div class="text-center">
+      <div class="text-uppercase small mb-1" style="letter-spacing:.07em;font-size:.72em;">Gefördert durch</div>
+      <img src="https://ifi-diagnostik-project.github.io/assets/img/Kombi-EU-SN-horizontal.jpg" style="height:44px;max-width:100%;object-fit:contain;">
+    </div>
+    <div class="text-md-end">
+      <div class="text-uppercase small mb-1" style="letter-spacing:.07em;font-size:.72em;">Unsere Partner</div>
+      <div class="d-flex flex-wrap gap-2 align-items-center justify-content-md-end">
+        <a href="https://www.gkz-ev.de/"><img src="https://ifi-diagnostik-project.github.io/assets/img/gkz.jpg" style="height:40px;object-fit:contain;border-radius:4px;opacity:.8;" class="img-fluid" alt="GKZ"></a>
+        <a href="https://www.hwk-dresden.de/"><img src="https://ifi-diagnostik-project.github.io/assets/img/hwk.png" style="height:40px;object-fit:contain;border-radius:4px;opacity:.8;" class="img-fluid" alt="HWK Dresden"></a>
+        <a href="https://tu-freiberg.de/"><img src="https://ifi-diagnostik-project.github.io/assets/img/tubaf.png" style="height:40px;object-fit:contain;border-radius:4px;opacity:.8;" class="img-fluid" alt="TU Bergakademie Freiberg"></a>
+      </div>
+    </div>
+  </div>
+
+meta:
+  title: DiAgnostiK – Belehrungen
+  description: >
+    Digitale Belehrungsmodule für Betrieb und Ausbildung: allgemeine Unterweisung,
+    Haus- und Brandschutzordnung sowie ergänzende Belehrungsinhalte.
+
+# Main course collection
+collection:
+  - html: >
+      <div style="padding: 20px; background-color: rgba(26, 47, 94, 0.1); border-radius: 8px; margin: 20px 0;">
+        <h2>📋 Belehrungen für Betrieb und Ausbildung</h2>
+        <p>
+          Diese Sammlung stellt <strong>digitale Belehrungs- und Unterweisungsmodule</strong> bereit,
+          die in Betrieb und Ausbildungsstätte eingesetzt werden können.
+        </p>
+        <p>
+          Enthalten sind eine allgemeine Erstbelehrung sowie die Haus- und Brandschutzordnung –
+          ergänzt durch weitere Belehrungsinhalte in Video- und Interaktivformat.
+        </p>
+      </div>
+
+
+  - url: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Belehrung/refs/heads/main/belehrung.md
+  - url: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Haus-und-Brandschutzordnung-Pirna/refs/heads/main/README.md
+    
+  - html: >
+      <div style="padding: 20px; background-color: rgba(201, 168, 76, 0.1); border-radius: 8px; margin: 20px 0;">
+        <h2>🚧 Weitere Belehrungen</h2>
+        <iframe
+          height="360" width="640"
+          style="width: 100%; aspect-ratio: 16/9;"
+          src="https://www.youtube.com/embed/a6yfTFOuqIk?si=seYaqxb5a9j2u44N&amp;start=567"
+          title="YouTube video player"
+          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen>
+        </iframe>
