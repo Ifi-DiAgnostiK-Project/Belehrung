@@ -1,17 +1,18 @@
 <!--
 author:   Sebastian Zug; Volker Göhler
-email:    sebastian.zug@informatik.tu-freiberg.de & volker.goehler@informatik.tu-freiberg.de
+email:    sebastian.zug@informatik.tu-freiberg.de, volker.goehler@informatik.tu-freiberg.de
 
 version:  0.0.1
 language: de
 narrator: German Female
 
+edit:     https://github.dev/Ifi-DiAgnostiK-Project/Belehrung/blob/main/belehrung.md
+
 icon:     https://uelu-digital.de/content/images/2025/03/WortBildMarkeSlogan_variante2_cropped.svg
 
-title: Belehrung über die Haus- und Werkstattordnung BTZ Pirna
+title:    Belehrung über die Haus- und Werkstattordnung BTZ Pirna
 
-tags:
-  - Belehrung
+tags:     Belehrung
 -->
 
 
