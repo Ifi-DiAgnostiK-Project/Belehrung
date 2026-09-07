@@ -2,7 +2,7 @@
 
 # Berufsbildungs- und Technologiezentrum Pirna
 
-Lehrgang: TSM3/99 Datum:03.02.
+Lehrgang: TSM3/99 Datum: 03.02.2025
 
 Belehrender (Ausbilder): Funke, Bernd
 
@@ -11,9 +11,9 @@ Die Teilnehmer wurden belehrt und unterwiesen in:
 ## I. Allgemeine Hausordnung
 
 - Verhalten im Brandfall und bei gefahrdrohenden Situationen:
-   - Verlassen Sie das Gebäude auf dem kürzesten Fluchtweg, entsprechend Flucht- und Rettungsplan, benutzen Sie keinen Aufzug, Unterstützen Sie Behinderte.
-    - Sammeln Sie sich sofort an den ausgewiesenen Sammelstellen.
-    - In Brand geratene elektrische Anlagen oder Geräte sind vom Netz zu trennen.
+  - Verlassen Sie das Gebäude auf dem kürzesten Fluchtweg, entsprechend Flucht- und Rettungsplan, benutzen Sie keinen Aufzug, Unterstützen Sie Behinderte.
+  - Sammeln Sie sich sofort an den ausgewiesenen Sammelstellen.
+  - In Brand geratene elektrische Anlagen oder Geräte sind vom Netz zu trennen.
 
 - Verletzungen sind von den Ersthelfern zu versorgen und in das Erste-Hilfe-Buch einzutragen.
 - Der Empfänger von Bombendrohungen hat sofort seinen Vorgesetzten über die Art und den Inhalt der Drohung, zu informieren.
