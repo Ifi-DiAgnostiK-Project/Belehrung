@@ -2,7 +2,7 @@
 author:   Andre Dietrich
 language: de
 narrator: Deutsch Female
-mode:     Slides
+
 edit:     true
 date:     2025-08-20
 
