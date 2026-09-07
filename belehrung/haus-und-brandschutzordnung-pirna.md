@@ -38,56 +38,56 @@ Verhalten im Brandfall und bei gefahrdrohenden Situationen:
 Verlassen Sie das Gebäude auf dem kürzesten Fluchtweg, entsprechend Flucht- und Rettungsplan, benutzen Sie keinen Aufzug, unterstützen Sie Behinderte.
 
      {{1-2}}
-![](assets/image/fluchtweg-rollstuhl.jpg)
+![Fluchtwegschild, eine Person unterstützt einen Rollstuhlfahrer bei der Evakuierung.](assets/image/fluchtweg-rollstuhl.jpg)
 
     --{{2}}--
 !?[▶️](assets/video/Belehrung_1.webm#t=16,21)
 Sammeln Sie sich sofort an ausgewiesenen Sammelstellen.
 
      {{2-3}}
-![](assets/image/sammelstelle.jpg)
+![Schild einer ausgewiesenen Sammelstelle für die Evakuierung.](assets/image/sammelstelle.jpg)
 
     --{{3}}--
 !?[▶️](assets/video/Belehrung_1.webm#t=22,27)
 In Brand geratenen elektrischen Anlagen oder Geräte sind vom Netz zu trennen.
 
      {{3-4}}
-![](assets/image/elektrogeraet-brand.jpg)
+![Brennendes elektrisches Gerät wird vom Netz getrennt.](assets/image/elektrogeraet-brand.jpg)
 
     --{{4}}--
 !?[▶️](assets/video/Belehrung_1.webm#t=28,34)
 Verletzungen sind von den Ersthelfern zu versorgen und in das Erste-Hilfe-Buch einzutragen.
 
      {{4-5}}
-![](assets/image/erste-hilfe.jpg)
+![Ersthelfer versorgt eine verletzte Person und trägt dies in das Erste-Hilfe-Buch ein.](assets/image/erste-hilfe.jpg)
 
     --{{5}}--
 !?[▶️](assets/video/Belehrung_1.webm#t=35,44)
 Der Empfänger von Bombendrohungen hat sofort seinen Vorgesetzten über die Art und den Inhalt der Drohung zu informieren.
 
      {{5-6}}
-![](assets/image/bombendrohung.jpg)
+![Person am Telefon meldet eine Bombendrohung sofort dem Vorgesetzten.](assets/image/bombendrohung.jpg)
 
     --{{6}}--
 !?[▶️](assets/video/Belehrung_1.webm#t=44,60)
 Im Falle eines Amoklaufs ist die Polizei (110) und die Verwaltung des BTZ Pirna (intern 471 oder extern 3501 4618870) zu informieren.
 
      {{6-7}}
-![](assets/image/amoklauf-polizei.jpg)
+![Im Falle eines Amoklaufs werden Polizei (110) und die Verwaltung des BTZ Pirna benachrichtigt.](assets/image/amoklauf-polizei.jpg)
 
     --{{7}}--
 !?[▶️](assets/video/Belehrung_1.webm#t=60,83)
 Das Tragen und Nutzen von Zeichen und Materialien (Bekleidung, Bild- und Tonträgern, Bücher, Grußformen, Parolen, Propagandamittel und Formulierungen der Volksverhetzung u.a.), die darauf schließen lassen, dass ein Kontakt zu extremistischem Gedankengut bzw. Gruppierungen besteht, ist verboten.
 
      {{7-8}}
-![](assets/image/extremismus-verboten.jpg)
+![Durchgestrichenes Symbol für verbotene extremistische Zeichen, Kleidung und Materialien.](assets/image/extremismus-verboten.jpg)
 
     --{{8}}--
 !?[▶️](assets/video/Belehrung_1.webm#t=84,91)
 Das Rauchen ist, mit Ausnahme in den festgelegten Raucherzonen, im gesamten Objekt verboten.
 
      {{8-9}}
-![](assets/image/rauchverbot.jpg)
+![Rauchverbotsschild: Rauchen ist nur in ausgewiesenen Raucherzonen erlaubt.](assets/image/rauchverbot.jpg)
 
     --{{9}}--
 !?[▶️](assets/video/Belehrung_1.webm#t=92,109)
@@ -96,14 +96,14 @@ Dieses Verbot schließt den Vertrieb oder die Weitergabe sonstiger Rauschmittel 
 Verstöße gegen das Betäubungsmittelgesetz werden zur Anzeige gebracht.
 
      {{9-10}}
-![](assets/image/alkohol-rauschmittel-verboten.jpg)
+![Verbotsschild für Alkohol und Rauschmittel im gesamten Objekt.](assets/image/alkohol-rauschmittel-verboten.jpg)
 
     --{{10}}--
 !?[▶️](assets/video/Belehrung_1.webm#t=110,116)
 Waffen jeglicher Art, auch Schreckschuss- oder Luftdruckwaffen, sind im Objekt verboten.
 
      {{10-11}}
-![](assets/image/waffenverbot.jpg)
+![Waffenverbotsschild: Waffen jeglicher Art sind im Objekt verboten.](assets/image/waffenverbot.jpg)
 
     --{{11}}--
 !?[▶️](assets/video/Belehrung_1.webm#t=117,141)
@@ -113,21 +113,21 @@ Außerhalb der Lehrgangszeiten sind die Einfahrtstore geschlossen.
 In dieser Zeit sind das Befahren des Geländes mit Kraftfahrzeugen sowie das Parken grundsätzlich nicht gestattet.
 
      {{11-12}}
-![](assets/image/parkplatz-abschleppen.jpg)
+![Parkplatz mit Abschleppfahrzeug: widerrechtlich abgestellte Fahrzeuge werden kostenpflichtig abgeschleppt.](assets/image/parkplatz-abschleppen.jpg)
 
     --{{12}}--
 !?[▶️](assets/video/Belehrung_1.webm#t=142,151)
 Die Handwerkskammer Dresden haftet nicht für abhanden gekommene Sachen und Wertgegenstände (Bekleidung, Wertsachen, etc.).
 
      {{12-13}}
-![](assets/image/keine-haftung-wertgegenstaende.jpg)
+![Hinweis: Die Handwerkskammer haftet nicht für abhanden gekommene Wertgegenstände.](assets/image/keine-haftung-wertgegenstaende.jpg)
 
     --{{13}}--
 !?[▶️](assets/video/Belehrung_1.webm#t=152)
 Während des Unterrichts und bei Prüfungen sind Handys grundsätzlich abzuschalten.
 
       {{13}}
-![](assets/image/handy-ausschalten.jpg)
+![Handy wird während Unterricht und Prüfungen ausgeschaltet.](assets/image/handy-ausschalten.jpg)
 
 
 ### Wissenstest
@@ -187,21 +187,21 @@ Den Weisungen der Lehrer/Ausbilder ist unbedingt Folge zu leisten.
 !?[▶️](assets/video/Belehrung_2.webm#t=0,5)
 
      {{0-1}}
-![](assets/image/weisungen-ausbilder.jpg)
+![Ausbilder gibt Anweisungen, denen unbedingt Folge zu leisten ist.](assets/image/weisungen-ausbilder.jpg)
 
     --{{1}}--
 Die Bedienung der Unterrichtstechnik obliegt ausschließlich den Dozenten.
 !?[▶️](assets/video/Belehrung_2.webm#t=6,11)
 
      {{1-2}}
-![](assets/image/unterrichtstechnik-dozent.jpg)
+![Dozent bedient die Unterrichtstechnik im Seminarraum.](assets/image/unterrichtstechnik-dozent.jpg)
 
     --{{2}}--
 Sicherheits- und Arbeitsschutzbestimmungen sowie Werkstattordnungen und Belehrungen des Ausbilders sind einzuhalten.
 !?[▶️](assets/video/Belehrung_2.webm#t=12,20)
 
      {{2-3}}
-![](assets/image/sicherheit-arbeitsschutz.jpg)
+![Sicherheits- und Arbeitsschutzbestimmungen sowie Werkstattordnungen sind einzuhalten.](assets/image/sicherheit-arbeitsschutz.jpg)
 
     --{{3}}--
 In den Werkstätten, Computerkabinetten bzw. Laboren ist das Essen nicht gestattet.
@@ -209,21 +209,21 @@ Nutzen Sie die Pausenecken bzw. den Speisesaal.
 !?[▶️](assets/video/Belehrung_2.webm#t=20,32)
 
      {{3-4}}
-![](assets/image/essen-verboten.jpg)
+![Verbotsschild: Essen ist in Werkstätten, Computerkabinetten und Laboren nicht gestattet.](assets/image/essen-verboten.jpg)
 
     --{{4}}--
 Die Aufstellung der Tische und Stühle in den Seminarräumen ist beizubehalten.
 !?[▶️](assets/video/Belehrung_2.webm#t=32.5,39)
 
      {{4-5}}
-![](assets/image/raumordnung-tische-stuehle.jpg)
+![Ordentlich aufgestellte Tische und Stühle im Seminarraum.](assets/image/raumordnung-tische-stuehle.jpg)
 
     --{{5}}--
 Der Aufenthalt in Werkstätten und Labors sowie im Computerkabinett sowie das Arbeiten am Computer sind nur in Anwesenheit und nach Aufforderung des Dozenten/Ausbilders gestattet.
 !?[▶️](assets/video/Belehrung_2.webm#t=39,50)
 
      {{5-6}}
-![](assets/image/werkstatt-zutritt.jpg)
+![Zutritt zur Werkstatt nur in Anwesenheit und nach Aufforderung des Dozenten.](assets/image/werkstatt-zutritt.jpg)
 
     --{{6}}--
 Es ist unzulässig selbständig Software auf dem Computer zu installieren oder Kopien installierter Software zu erstellen.
@@ -231,7 +231,7 @@ Des Weiteren ist das Herunterladen von Daten jeglicher Art aus sowie das Surfen 
 !?[▶️](assets/video/Belehrung_2.webm#t=50,71)
 
      {{6-7}}
-![](assets/image/software-internet-verboten.jpg)
+![Verbotsschild: eigenständige Softwareinstallation und unerlaubte Internetnutzung sind untersagt.](assets/image/software-internet-verboten.jpg)
 
     --{{7}}--
 Gewaltanwendungen jeglicher Art sind verboten.
@@ -239,42 +239,42 @@ Teilnehmer haften für mutwillig beschädigte oder entwendete Werkstatt- bzw. La
 !?[▶️](assets/video/Belehrung_2.webm#t=72,86)
 
      {{7-8}}
-![](assets/image/gewaltverbot-haftung.jpg)
+![Gewaltverbot: Teilnehmer haften für mutwillig beschädigte Werkstatteinrichtungen.](assets/image/gewaltverbot-haftung.jpg)
 
     --{{8}}--
 Die Werkstätten des BTZ Pirna dürfen nur mit Arbeitsschutzbekleidung sowie Arbeitsschutzschuhen betreten werden.
 !?[▶️](assets/video/Belehrung_2.webm#t=87,94)
 
      {{8-9}}
-![](assets/image/schutzkleidung-pflicht.jpg)
+![Gebotsschild: Arbeitsschutzbekleidung und Arbeitsschutzschuhe sind in der Werkstatt Pflicht.](assets/image/schutzkleidung-pflicht.jpg)
 
     --{{9}}--
 Die jeweils geltenden aushängenden Betriebsanweisungen sind zu beachten.
 !?[▶️](assets/video/Belehrung_2.webm#t=95,101)
 
      {{9-10}}
-![](assets/image/betriebsanweisung.jpg)
+![Ausgehängte Betriebsanweisung, die zu beachten ist.](assets/image/betriebsanweisung.jpg)
 
     --{{10}}--
 Bei Fehlzeiten während der Ausbildung sind entsprechende Nachweise zu erbringen.
 !?[▶️](assets/video/Belehrung_2.webm#t=101,107)
 
      {{10-11}}
-![](assets/image/fehlzeiten-attest.jpg)
+![Attest oder Nachweis wird für Fehlzeiten während der Ausbildung vorgelegt.](assets/image/fehlzeiten-attest.jpg)
 
     --{{11}}--
 Beim Verlassen des Objekts ist der zuständige Ausbilder zu informieren, ohne Abmeldung kein Versicherungsschutz.
 !?[▶️](assets/video/Belehrung_2.webm#t=108,116)
 
      {{11-12}}
-![](assets/image/abmeldung-versicherungsschutz.jpg)
+![Beim Verlassen des Objekts beim Ausbilder abmelden, sonst kein Versicherungsschutz.](assets/image/abmeldung-versicherungsschutz.jpg)
 
     --{{12}}--
 Im Übrigen gilt die öffentliche aushängende Haus- und Brandschutzordnung der Handwerkskammer Dresden in der jeweils gültigen Fassung.
 !?[▶️](assets/video/Belehrung_2.webm#t=116)
 
      {{12-13}}
-![](assets/image/13-hausordnung-gilt.jpg)
+![Hinweis: Im Übrigen gilt die öffentlich ausgehängte Haus- und Brandschutzordnung der Handwerkskammer Dresden.](assets/image/13-hausordnung-gilt.jpg)
 
     {{|> 13}}
 > __Berücksichtigung von Beeiträchtigungen__
