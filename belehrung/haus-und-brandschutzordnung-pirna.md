@@ -140,6 +140,11 @@ __Was ist im Brandfall zu tun?__
 <!-- --{{0}}--
 Was ist im Brandfall zu tun? -->
 
+<!--
+data-randomize="true" 
+data-show-partial-solution="true"
+data-solution-button="false"
+-->
 - [[x]] Gebäude auf kürzestem Fluchtweg verlassen, keinen Aufzug benutzen
 - [[ ]] Zunächst persönliche Sachen aus dem Raum holen
 - [[ ]] Auf den Aufzug warten
@@ -155,7 +160,11 @@ __Ordnen Sie die Situationen den richtigen Verhaltensweisen zu.__
 <!-- --{{1}}--
 Ordnen Sie die Situationen den richtigen Verhaltensweisen zu. -->
 
-<!-- data-randomize="true" -->
+<!--
+data-randomize="true" 
+data-show-partial-solution="true"
+data-solution-button="false"
+-->
 | Situation     | Verhaltensweise                                                   |
 | ------------- | ----------------------------------------------------------------- |
 | Sammelstelle  | [->[(Sofort nach Evakuierung aufsuchen)]]                         |
@@ -173,6 +182,11 @@ __Welche Aussagen zur Hausordnung sind korrekt?__
 <!-- --{{2}}--
 Welche Aussagen zur Hausordnung sind korrekt? -->
 
+<!--
+data-randomize="true" 
+data-show-partial-solution="true"
+data-solution-button="false"
+-->
 - [[x]] Rauchen ist nur in ausgewiesenen Zonen erlaubt.  
 - [[ ]] Alkoholische Getränke dürfen in Pausen konsumiert werden.  
 - [[x]] Waffen jeglicher Art sind verboten.  
@@ -293,7 +307,11 @@ __Welche Regeln gelten in Werkstätten und Laboren?__
 <!-- --{{0}}--
 Welche Regeln gelten in Werkstätten und Laboren? -->
 
-
+<!--
+data-randomize="true" 
+data-show-partial-solution="true"
+data-solution-button="false"
+-->
 - [[x]] Essen ist dort verboten.
 - [[ ]] Software darf eigenständig installiert werden.
 - [[x]] Sicherheits- und Arbeitsschutzbestimmungen müssen eingehalten werden.
@@ -312,7 +330,11 @@ __Ordnen Sie die Vorschriften den richtigen Bereichen zu.__
 Ordnen Sie die Vorschriften den richtigen Bereichen zu. -->
 
 
-<!-- data-randomize -->
+<!--
+data-randomize="true" 
+data-show-partial-solution="true"
+data-solution-button="false"
+-->
 Arbeitsschutzkleidung -> [->[(Pflicht beim Betreten der Werkstätten)]]\
 Dozenten              -> [->[(Bedienung der Unterrichtstechnik)]]\
 Teilnehmer            -> [->[(Haften für mutwillige Beschädigungen)]]\
@@ -330,6 +352,11 @@ __Welche Aussagen sind richtig oder falsch?__
 <!-- --{{2}}--
 Welche Aussagen sind richtig oder falsch? -->
 
+<!--
+data-randomize="true" 
+data-show-partial-solution="true"
+data-solution-button="false"
+-->
 - [[x]] In Werkstätten darf nur unter Aufsicht des Ausbilders gearbeitet werden.  
 - [[ ]] Das Surfen auf beliebigen Internetseiten ist erlaubt.  
 - [[x]] Gewaltanwendungen jeglicher Art sind verboten.  

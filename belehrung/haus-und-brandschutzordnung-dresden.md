@@ -138,7 +138,11 @@ __Ordnen Sie die Situationen den richtigen Verhaltensweisen zu.__
 <!-- --{{1}}--
 Ordnen Sie die Situationen den richtigen Verhaltensweisen zu. -->
 
-<!-- data-randomize="true" -->
+<!--
+data-randomize="true" 
+data-show-partial-solution="true"
+data-solution-button="false"
+-->
 | Situation     | Verhaltensweise                                                          |
 | ------------- | ------------------------------------------------------------------------ |
 | Sammelstelle  | [->[(Sofort nach Evakuierung aufsuchen)]]                                |
@@ -156,6 +160,12 @@ __Welche Aussagen zur Hausordnung sind korrekt?__
 <!-- --{{2}}--
 Welche Aussagen zur Hausordnung sind korrekt? -->
 
+
+<!--
+data-randomize="true" 
+data-show-partial-solution="true"
+data-solution-button="false"
+-->
 - [[x]] Rauchen ist nur in ausgewiesenen Zonen erlaubt.
 - [[ ]] Alkoholische Getränke dürfen in Pausen konsumiert werden.
 - [[x]] Waffen jeglicher Art sind verboten.
@@ -240,6 +250,11 @@ __Welche Regeln gelten in Werkstätten und Laboren?__
 <!-- --{{0}}--
 Welche Regeln gelten in Werkstätten und Laboren? -->
 
+<!--
+data-randomize="true" 
+data-show-partial-solution="true"
+data-solution-button="false"
+-->
 - [[x]] Essen und Trinken sind im Computerkabinett und in Labors verboten.
 - [[ ]] Software darf eigenständig installiert werden.
 - [[x]] Die Werkstätten dürfen nur mit Arbeitsschutzbekleidung betreten werden.
@@ -257,7 +272,11 @@ __Ordnen Sie die Vorschriften den richtigen Bereichen zu.__
 <!-- --{{1}}--
 Ordnen Sie die Vorschriften den richtigen Bereichen zu. -->
 
-<!-- data-randomize -->
+<!--
+data-randomize="true" 
+data-show-partial-solution="true"
+data-solution-button="false"
+-->
 Arbeitsschutzkleidung -> [->[(Pflicht beim Betreten der Werkstätten)]]\
 Dozent                -> [->[(Bedienung der Unterrichtstechnik)]]\
 Teilnehmer            -> [->[(Haften für mutwillige Beschädigungen)]]\
@@ -275,6 +294,11 @@ __Welche Aussagen sind richtig oder falsch?__
 <!-- --{{2}}--
 Welche Aussagen sind richtig oder falsch? -->
 
+<!--
+data-randomize="true" 
+data-show-partial-solution="true"
+data-solution-button="false"
+-->
 - [[x]] An unter Spannung stehenden Teilen darf nicht gearbeitet werden.
 - [[ ]] Das Surfen auf beliebigen Internetseiten ist erlaubt.
 - [[x]] Gewaltanwendungen jeglicher Art sind verboten.
