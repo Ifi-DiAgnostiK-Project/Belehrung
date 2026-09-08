@@ -87,7 +87,8 @@ collection:
       </div>
 
 
-  - url: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Belehrung/refs/heads/main/belehrung.md
+  - url: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Belehrung/refs/heads/main/belehrung/haus-und-brandschutzordnung-pirna.md
+  - url: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Belehrung/refs/heads/main/belehrung/haus-und-brandschutzordnung-dresden.md
   - url: https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Haus-und-Brandschutzordnung-Pirna/refs/heads/main/README.md
     
   - html: >

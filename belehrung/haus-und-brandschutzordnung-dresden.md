@@ -6,7 +6,11 @@ narrator: Deutsch Female
 edit:     true
 date:     2026-09-07
 
-comment:  Handwerkskammer Dresden
+icon:     https://ifi-diagnostik-project.github.io/assets/img/Logo_234px.png
+
+logo:     assets/image/haus-und-brandschutzordnung-dresden-karte.png
+
+comment:  Der Kurs vermittelt die Haus- und Werkstattordnung der Handwerkskammer Dresden in zwei Abschnitten: allgemeine Hausordnung und Werkstatt-/Laborordnung. Er behandelt Verhalten im Brandfall, Notfälle wie Bombendrohung und Amoklauf sowie Verbote (Rauchen, Alkohol/Drogen, Waffen, Extremismus) und Haftungsregeln. Interaktive Wissenstests zu beiden Abschnitten prüfen das Verständnis der Sicherheits- und Ordnungsvorschriften.
 
 tags:     Belehrung;
           Brandschutz;
@@ -16,7 +20,7 @@ tags:     Belehrung;
 -->
 
 
-# Haus- und Brandschutzordung
+# Haus- und Brandschutzordung (Dresden)
 
 Handwerkskammer Dresden
 ------------------------
