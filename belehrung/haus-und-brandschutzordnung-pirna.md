@@ -8,7 +8,7 @@ date:     2025-08-20
 
 icon:     https://ifi-diagnostik-project.github.io/assets/img/Logo_234px.png
 
-logo:     assets/image/haus-und-brandschutzordnung-dresden-pirna.png
+logo:     assets/image/haus-und-brandschutzordnung-pirna.png
 
 comment:  Der Kurs vermittelt die Haus- und Werkstattordnung des BTZ Pirna, ebenfalls gegliedert in allgemeine Hausordnung und Werkstatt-/Laborordnung. Schwerpunkte sind das Verhalten im Brandfall sowie weitere gefahrdrohende Situationen und die Regeln zur sicheren Nutzung der Räumlichkeiten und Werkstätten. Wie beim Dresden-Kurs sichern eingebettete Wissenstests das Behalten der Inhalte.
 
