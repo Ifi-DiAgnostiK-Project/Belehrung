@@ -12,9 +12,9 @@ logo:     assets/image/haus-und-brandschutzordnung-pirna.png
 
 comment:  Der Kurs vermittelt die Haus- und Werkstattordnung des BTZ Pirna, ebenfalls gegliedert in allgemeine Hausordnung und Werkstatt-/Laborordnung. Schwerpunkte sind das Verhalten im Brandfall sowie weitere gefahrdrohende Situationen und die Regeln zur sicheren Nutzung der Räumlichkeiten und Werkstätten. Wie beim Dresden-Kurs sichern eingebettete Wissenstests das Behalten der Inhalte.
 
-tags:     Belehrung;
-          Brandschutz;
-          Hausordnung;
+tags:     Belehrung,
+          Brandschutz,
+          Hausordnung,
           Pirna
 
 -->

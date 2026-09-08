@@ -12,9 +12,9 @@ logo:     assets/image/haus-und-brandschutzordnung-dresden-karte.png
 
 comment:  Der Kurs vermittelt die Haus- und Werkstattordnung der Handwerkskammer Dresden in zwei Abschnitten: allgemeine Hausordnung und Werkstatt-/Laborordnung. Er behandelt Verhalten im Brandfall, Notfälle wie Bombendrohung und Amoklauf sowie Verbote (Rauchen, Alkohol/Drogen, Waffen, Extremismus) und Haftungsregeln. Interaktive Wissenstests zu beiden Abschnitten prüfen das Verständnis der Sicherheits- und Ordnungsvorschriften.
 
-tags:     Belehrung;
-          Brandschutz;
-          Hausordnung;
+tags:     Belehrung,
+          Brandschutz,
+          Hausordnung,
           Dresden
 
 -->
