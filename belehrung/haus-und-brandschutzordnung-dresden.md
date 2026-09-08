@@ -30,36 +30,42 @@ __Klicken Sie unten auf den Pfeilen, um im Dokument zu navigieren.__
 ## I. Allgemeine Hausordnung
 
     --{{0}}--
+!?[▶️](assets/video/ersthelfer.mp4)
 Verletzungen sind von den Ersthelfern zu versorgen und in das Erste-Hilfe-Buch einzutragen.
 
      {{0-1}}
 ![Ersthelfer versorgt eine verletzte Person und trägt dies in das Erste-Hilfe-Buch ein.](assets/image/erste-hilfe.jpg)
 
     --{{1}}--
+!?[▶️](assets/video/bombendrohung.mp4)
 Der Empfänger von Bombendrohungen hat sofort seinen Vorgesetzten über die Art und den Inhalt der Drohung zu informieren.
 
      {{1-2}}
 ![Person am Telefon meldet eine Bombendrohung sofort dem Vorgesetzten.](assets/image/bombendrohung.jpg)
 
     --{{2}}--
+!?[▶️](assets/video/amoklauf-dresden.mp4)
 Im Falle eines Amoklaufs ist sofort die Polizei (110) und der Empfang der Handwerkskammer (intern 30/31 oder extern 0351 4640-30) zu informieren.
 
      {{2-3}}
 ![Im Falle eines Amoklaufs werden Polizei (110) und der Empfang der Handwerkskammer benachrichtigt.](assets/image/amoklauf-polizei.jpg)
 
     --{{3}}--
+!?[▶️](assets/video/extremismus.mp4)
 Das Tragen und Nutzen von Zeichen und Materialien (Bekleidung, Bild- und Tonträger, Bücher, Grußformen, Parolen, Propagandamittel und Formulierungen der Volksverhetzung u. a.), die darauf schließen lassen, dass ein Kontakt zu extremistischem Gedankengut bzw. Gruppierungen besteht, ist verboten.
 
      {{3-4}}
 ![Durchgestrichenes Symbol für verbotene extremistische Zeichen, Kleidung und Materialien.](assets/image/extremismus-verboten.jpg)
 
     --{{4}}--
+!?[▶️](assets/video/rauchverbot.mp4)
 Das Rauchen ist, mit Ausnahme in den festgelegten Raucherzonen, im gesamten Objekt verboten.
 
      {{4-5}}
 ![Rauchverbotsschild: Rauchen ist nur in ausgewiesenen Raucherzonen erlaubt.](assets/image/rauchverbot.jpg)
 
     --{{5}}--
+!?[▶️](assets/video/drogenverbot.mp4)
 Der Konsum von alkoholischen Getränken und sonstiger Rauschmittel ist grundsätzlich verboten.
 Dieses Verbot schließt den Vertrieb oder die Weitergabe sonstiger Rauschmittel ein.
 Verstöße gegen das Betäubungsmittelgesetz werden zur Anzeige gebracht.
@@ -68,45 +74,53 @@ Verstöße gegen das Betäubungsmittelgesetz werden zur Anzeige gebracht.
 ![Verbotsschild für Alkohol und Rauschmittel im gesamten Objekt.](assets/image/alkohol-rauschmittel-verboten.jpg)
 
     --{{6}}--
+!?[▶️](assets/video/waffenverbot.mp4)
 Waffen jeglicher Art, auch Schreckschuss- oder Luftdruckwaffen, sind im Objekt verboten.
 
      {{6-7}}
 ![Waffenverbotsschild: Waffen jeglicher Art sind im Objekt verboten.](assets/image/waffenverbot.jpg)
 
     --{{7}}--
+!?[▶️](assets/video/nachtruhe.mp4)
 In der Zeit von 22:00 Uhr bis 05:00 Uhr sind die Einfahrtstore verschlossen. In dieser Zeit ist das Befahren des Geländes mit Kraftfahrzeugen grundsätzlich nicht gestattet.
 
      {{7-8}}
 ![Verschlossenes Einfahrtstor bei Nacht: Einfahrt von 22:00 bis 05:00 Uhr gesperrt.](assets/image/einfahrtstor-nachts-geschlossen.jpg)
 
     --{{8}}--
+!?[▶️](assets/video/haftung.mp4)
 Die Handwerkskammer Dresden haftet nicht für abhanden gekommene Sachen und Gegenstände (Bekleidung, Wertsachen etc.).
 
      {{8-9}}
 ![Hinweis: Die Handwerkskammer haftet nicht für abhanden gekommene Wertgegenstände.](assets/image/keine-haftung-wertgegenstaende.jpg)
 
     --{{9}}--
+!?[▶️](assets/video/handyverbot.mp4)
 Während des Unterrichts und bei Prüfungen sind Handys grundsätzlich auszuschalten.
 
      {{9-10}}
 ![Handy wird während Unterricht und Prüfungen ausgeschaltet.](assets/image/handy-ausschalten.jpg)
 
     --{{10}}--
+!?[▶️](assets/video/verhalten-im-brandfall.mp4)
 Verhalten im Brandfall und bei gefahrdrohenden Situationen:
 
     --{{11}}--
+!?[▶️](assets/video/fluchtweg-dresden.mp4)
 Verlassen Sie das Gebäude auf dem kürzesten, nächstliegenden Fluchtweg, entsprechend Flucht- und Rettungsplan, benutzen Sie keinen Aufzug. Unterstützen Sie Behinderte.
 
      {{11-12}}
 ![Fluchtwegschild, eine Person unterstützt einen Rollstuhlfahrer bei der Evakuierung.](assets/image/fluchtweg-rollstuhl.jpg)
 
     --{{12}}--
+!?[▶️](assets/video/sammelstellen.mp4)
 Sammeln Sie sich sofort an den ausgewiesenen Sammelstellen.
 
      {{12-13}}
 ![Schild einer ausgewiesenen Sammelstelle für die Evakuierung.](assets/image/sammelstelle.jpg)
 
     --{{13}}--
+!?[▶️](assets/video/elektrobrand.mp4)
 In Brand geratene elektrische Anlagen oder Geräte sind vom Netz zu trennen.
 
      {{13}}
@@ -178,36 +192,42 @@ data-solution-button="false"
 ## II. Werkstatt- und Laborordnung
 
     --{{0}}--
+!?[▶️](assets/video/den-weisungen.mp4)
 Den Weisungen der Lehrer/Ausbilder ist unbedingt Folge zu leisten.
 
      {{0-1}}
 ![Ausbilder gibt Anweisungen, denen unbedingt Folge zu leisten ist.](assets/image/weisungen-ausbilder.jpg)
 
     --{{1}}--
+!?[▶️](assets/video/arbeitsschutzkleidung.mp4)
 Die Werkstätten dürfen nur mit Arbeitsschutzbekleidung sowie Arbeitsschutzschuhen betreten werden.
 
      {{1-2}}
 ![Gebotsschild: Arbeitsschutzbekleidung und Arbeitsschutzschuhe sind in der Werkstatt Pflicht.](assets/image/schutzkleidung-pflicht.jpg)
 
     --{{2}}--
+!?[▶️](assets/video/betriebsanweisungen.mp4)
 Die jeweils geltenden aushängenden Betriebsanweisungen sind zu beachten.
 
      {{2-3}}
 ![Ausgehängte Betriebsanweisung, die zu beachten ist.](assets/image/betriebsanweisung.jpg)
 
     --{{3}}--
+!?[▶️](assets/video/spannung.mp4)
 Keine Arbeit an unter Spannung stehenden Teilen!
 
      {{3-4}}
 ![Warnschild mit Blitzsymbol: Arbeiten an spannungsführenden Teilen verboten.](assets/image/spannungsfuehrende-teile-verboten.jpg)
 
     --{{4}}--
+!?[▶️](assets/video/die-bedienung.mp4)
 Die Bedienung der Unterrichtstechnik obliegt ausschließlich dem Dozenten.
 
      {{4-5}}
 ![Dozent bedient die Unterrichtstechnik im Seminarraum.](assets/image/unterrichtstechnik-dozent.jpg)
 
     --{{5}}--
+!?[▶️](assets/video/gewaltanwendung.mp4)
 Gewaltanwendungen jeglicher Art sind verboten.
 Teilnehmer haften für mutwillig beschädigte oder entwendete Werkstatt- bzw. Laboreinrichtungen und Gegenstände in Höhe des Wiederbeschaffungswertes.
 
@@ -215,18 +235,21 @@ Teilnehmer haften für mutwillig beschädigte oder entwendete Werkstatt- bzw. La
 ![Gewaltverbot: Teilnehmer haften für mutwillig beschädigte Werkstatteinrichtungen.](assets/image/gewaltverbot-haftung.jpg)
 
     --{{6}}--
+!?[▶️](assets/video/tische-und-stuehle.mp4)
 Die Aufstellung der Tische und Stühle in den Seminarräumen ist beizubehalten.
 
      {{6-7}}
 ![Ordentlich aufgestellte Tische und Stühle im Seminarraum.](assets/image/raumordnung-tische-stuehle.jpg)
 
     --{{7}}--
-Der Aufenthalt in Werkstätten und Labors sowie im Computerkabinett sowie das Arbeiten am Computer sind nur in Anwesenheit und nach Aufforderung des Dozenten gestattet.
+!?[▶️](assets/video/computerkabinett.mp4)
+Der Aufenthalt in Werkstätten und Labors sowie im Computerkabinett sowie das Arbeiten am Computer sind nur in Anwesenheit und nach Aufforderung des Dozenten/Ausbilders gestattet.
 
      {{7-8}}
 ![Zutritt zur Werkstatt nur in Anwesenheit und nach Aufforderung des Dozenten.](assets/image/werkstatt-zutritt.jpg)
 
     --{{8}}--
+!?[▶️](assets/video/software.mp4)
 Es ist unzulässig, selbständig Software auf dem Computer zu installieren oder Kopien installierter Software zu erstellen.
 Des Weiteren ist das Herunterladen von Daten jeglicher Art aus sowie das Surfen auf pornographischen, gewaltverherrlichenden oder extremistischen Seiten im World Wide Web verboten.
 
@@ -234,6 +257,7 @@ Des Weiteren ist das Herunterladen von Daten jeglicher Art aus sowie das Surfen 
 ![Verbotsschild: eigenständige Softwareinstallation und unerlaubte Internetnutzung sind untersagt.](assets/image/software-internet-verboten.jpg)
 
     --{{9}}--
+!?[▶️](assets/video/speisesaal-dresden.mp4)
 Im Computerkabinett und in Labors ist der Verzehr von Speisen und Getränken nicht gestattet.
 
      {{9}}
