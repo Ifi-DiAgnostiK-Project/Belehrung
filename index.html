@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>DiAgnostiK Lehr- und Lernraum</title>
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org/",
+                    "@type": "ItemList",
+                    "itemListElement": [{
+                    "@id": "https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Belehrung/refs/heads/main/belehrung/haus-und-brandschutzordnung-pirna.md",
+                        "@type": "Course",
+                        "author": {
+                        "@type": "Person",
+                            "name": "Andre Dietrich"
+                    },
+                        "description": "Der Kurs vermittelt die Haus- und Werkstattordnung des BTZ Pirna, ebenfalls gegliedert in allgemeine Hausordnung und Werkstatt-/Laborordnung. Schwerpunkte sind das Verhalten im Brandfall sowie weitere gefahrdrohende Situationen und die Regeln zur sicheren Nutzung der Räumlichkeiten und Werkstätten. Wie beim Dresden-Kurs sichern eingebettete Wissenstests das Behalten der Inhalte.",
+                        "image": {
+                        "@type": "ImageObject",
+                            "url": "https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Belehrung/refs/heads/main/assets/image/haus-und-brandschutzordnung-pirna.png"
+                    },
+                        "inLanguage": "de",
+                        "keywords": [
+                        "Belehrung",
+                        "Brandschutz",
+                        "Hausordnung",
+                        "Pirna"],
+                        "name": "Haus- und Brandschutzordung (Pirna)",
+                        "url": "https://LiaScript.github.io/course/?https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Belehrung/refs/heads/main/belehrung/haus-und-brandschutzordnung-pirna.md",
+                        "version": "1.0.0"
+                }, {
+                    "@id": "https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Belehrung/refs/heads/main/belehrung/haus-und-brandschutzordnung-dresden.md",
+                        "@type": "Course",
+                        "author": {
+                        "@type": "Person",
+                            "name": "Andre Dietrich"
+                    },
+                        "description": "Der Kurs vermittelt die Haus- und Werkstattordnung der Handwerkskammer Dresden in zwei Abschnitten: allgemeine Hausordnung und Werkstatt-/Laborordnung. Er behandelt Verhalten im Brandfall, Notfälle wie Bombendrohung und Amoklauf sowie Verbote (Rauchen, Alkohol/Drogen, Waffen, Extremismus) und Haftungsregeln. Interaktive Wissenstests zu beiden Abschnitten prüfen das Verständnis der Sicherheits- und Ordnungsvorschriften.",
+                        "image": {
+                        "@type": "ImageObject",
+                            "url": "https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Belehrung/refs/heads/main/assets/image/haus-und-brandschutzordnung-dresden-karte.png"
+                    },
+                        "inLanguage": "de",
+                        "keywords": [
+                        "Belehrung",
+                        "Brandschutz",
+                        "Hausordnung",
+                        "Dresden"],
+                        "name": "Haus- und Brandschutzordung (Dresden)",
+                        "url": "https://LiaScript.github.io/course/?https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Belehrung/refs/heads/main/belehrung/haus-und-brandschutzordnung-dresden.md",
+                        "version": "1.0.0"
+                }, {
+                    "@id": "https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Haus-und-Brandschutzordnung-Pirna/refs/heads/main/README.md",
+                        "@type": "Course",
+                        "author": {
+                        "@type": "Person",
+                            "name": "Andre Dietrich"
+                    },
+                        "description": "Berufsbildungs- und Technologiezentrum Pirna",
+                        "inLanguage": "de",
+                        "keywords": "Belehrung",
+                        "name": "Haus- und Brandschutzordung",
+                        "url": "https://LiaScript.github.io/course/?https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Haus-und-Brandschutzordnung-Pirna/refs/heads/main/README.md",
+                        "version": "0.1.0"
+                }],
+                    "name": "DiAgnostiK Lehr- und Lernraum",
+                    "description": "Belehrungen"
+            }
+        </script>
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="DiAgnostiK – Belehrungen">
+        <meta name="twitter:title" content="DiAgnostiK – Belehrungen">
+        <meta name="description" content="Digitale Belehrungsmodule für Betrieb und Ausbildung: allgemeine Unterweisung, Haus- und Brandschutzordnung sowie ergänzende Belehrungsinhalte.">
+        <meta property="og:description" content="Digitale Belehrungsmodule für Betrieb und Ausbildung: allgemeine Unterweisung, Haus- und Brandschutzordnung sowie ergänzende Belehrungsinhalte.">
+        <meta name="twitter:description" content="Digitale Belehrungsmodule für Betrieb und Ausbildung: allgemeine Unterweisung, Haus- und Brandschutzordnung sowie ergänzende Belehrungsinhalte.">
+        <meta property="og:image" content="https://ifi-diagnostik-project.github.io/assets/img/slogan_hero.jpg">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="https://ifi-diagnostik-project.github.io/assets/img/slogan_hero.jpg">
+        <link rel="icon" type="image/x-icon" href="https://ifi-diagnostik-project.github.io/assets/img/Logo_234px.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script>
+            // Globale Variable zum Speichern der ausgewählten Kategorien
+            window.selectedCategories = []
+
+            // Fügt einen Chip hinzu, wenn eine Kategorie gewählt wurde
+            function addCategoryChip(category) {
+                if (!category) return // falls "All categories" gewählt wurde, nichts tun
+                if (window.selectedCategories.indexOf(category) === -1) {
+                    window.selectedCategories.push(category)
+                    // Option im Select-Menü deaktivieren
+                    document.querySelector('#categorySelect option[value="' + category + '"]').disabled = true
+                    updateChipsDisplay()
+                    filterCards()
+                }
+                // Setze das Select-Element zurück
+                document.getElementById('categorySelect').value = ''
+            }
+
+            // Entfernt einen Chip
+            function removeCategoryChip(category) {
+                const index = window.selectedCategories.indexOf(category)
+                if (index > -1) {
+                    window.selectedCategories.splice(index, 1)
+                    // Option im Select-Menü wieder aktivieren
+                    document.querySelector('#categorySelect option[value="' + category + '"]').disabled = false
+                    updateChipsDisplay()
+                    filterCards()
+                }
+            }
+
+            // Aktualisiert die Anzeige der Chips
+            function updateChipsDisplay() {
+                const chipsContainer = document.getElementById('chipsContainer')
+                chipsContainer.innerHTML = ''
+                window.selectedCategories.forEach(function (cat) {
+                    const chip = document.createElement('span')
+                    chip.className = 'badge rounded-pill bg-primary me-2'
+                    chip.style.cursor = 'pointer'
+                    chip.style.fontSize = '1rem'
+                    chip.textContent = cat + ' ×'
+                    chip.onclick = function () {
+                        removeCategoryChip(cat)
+                    }
+                    chipsContainer.appendChild(chip)
+                })
+            }
+
+            function filterCards() {
+                const cards = document.querySelectorAll('div[data-category]')
+                cards.forEach(function (card) {
+                    // Falls keine Filterkategorien ausgewählt wurden, zeige alle Karten
+                    if (window.selectedCategories.length === 0) {
+                        card.parentNode.style.display = "block";
+                        return
+                    }
+                    // Zerlege die im data-Attribut hinterlegten Kategorien
+                    const cardCategories = card.dataset.category.split('|')
+                    // Prüfe, ob alle ausgewählten Kategorien in der Karte vorhanden sind
+                    const show = window.selectedCategories.every(function (cat) {
+                        return cardCategories.indexOf(cat) !== -1
+                    })
+                    if (show) {
+                        card.parentNode.style.display = "block";
+                    } else {
+                        card.parentNode.style.display = "none";
+                    }
+                })
+            }
+        </script>
+    </head>
+    
+    <body>
+        <nav class="navbar navbar-expand navbar-dark sticky-top" id="mainNavbar" style="background-color: #1A2F5E;">
+            <div class="container-fluid px-4"> <a class="navbar-brand" href="https://ifi-diagnostik-project.github.io"><span> <img src="https://ifi-diagnostik-project.github.io/assets/img/Logo_234px.png" style="height:28px;object-fit:contain;margin-right:8px;" alt="DiAgnostiK Logo"> DiAgnostiK </span>
+</a>
+
+                <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto flex-nowrap" style="white-space:nowrap;">
+                        <li class="nav-item"> <a class="nav-link" href="https://ifi-diagnostik-project.github.io/Tischlerei">Tischlerei</a>
+
+                        </li>
+                        <li class="nav-item"> <a class="nav-link" href="https://ifi-diagnostik-project.github.io/Sanitaer-Heizung-Klima/">Sanitär, Heizung, Klima (SHK)</a>
+
+                        </li>
+                        <li class="nav-item"> <a class="nav-link" href="https://ifi-diagnostik-project.github.io/Zahntechnik">Zahntechnik</a>
+
+                        </li>
+                        <li class="nav-item"> <a class="nav-link" href="https://ifi-diagnostik-project.github.io/Malerhandwerk">Malerhandwerk</a>
+
+                        </li>
+                        <li class="nav-item"> <a class="nav-link" href="https://ifi-diagnostik-project.github.io/Raumausstattung">Raumaustattung</a>
+
+                        </li>
+                        <li class="nav-item"> <a class="nav-link active" href="https://ifi-diagnostik-project.github.io/Belehrung">Belehrungen</a>
+
+                        </li>
+                        <li class="nav-item"> <a class="nav-link" href="https://ifi-diagnostik-project.github.io/Arbeits--und-Gesundheitsschutz">Arbeits- und Gesundheitsschutz</a>
+
+                        </li>
+                        <li class="nav-item"> <a class="nav-link" href="https://ifi-diagnostik-project.github.io/Befragungen">Umfragen</a>
+
+                        </li>
+                        <li class="nav-item"> <a class="nav-link" href="https://ifi-diagnostik-project.github.io/Wissensspeicher">Wissensspeicher</a>
+
+                        </li>
+                        <li class="nav-item"> <a class="nav-link" href="https://ifi-diagnostik-project.github.io/Experimente">Experimente</a>
+
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn nav-link" type="button" data-bs-toggle="modal" data-bs-target="#searchModal" title="Search (Ctrl+K)">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001l3.85 3.85a1 1 0 0 0 1.415-1.415l-3.85-3.85zm-5.242 1.656a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11z" />
+                                </svg>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <script>
+            (function () {
+                var nav = document.getElementById('mainNavbar');
+                var toggler = nav.querySelector('.navbar-toggler');
+                var collapse = document.getElementById('navbarNav');
+                var brand = nav.querySelector('.navbar-brand');
+
+                function check() {
+                    // Measure in expanded state (navbar-expand makes collapse display:flex via Bootstrap CSS)
+                    nav.classList.add('navbar-expand');
+
+                    var navWidth = nav.offsetWidth;
+                    var brandWidth = brand ? brand.offsetWidth : 0;
+                    var listWidth = collapse.scrollWidth;
+
+                    var overflows = (brandWidth + listWidth + 48) > navWidth;
+                    if (overflows) {
+                        nav.classList.remove('navbar-expand');
+                        toggler.classList.remove('d-none');
+                    } else {
+                        // navbar-expand already set above; Bootstrap CSS shows collapse as flex automatically
+                        toggler.classList.add('d-none');
+                    }
+                }
+
+                document.addEventListener('DOMContentLoaded', function () {
+                    check();
+                    // Collapse navbar when a nav link is clicked (mobile/toggler mode)
+                    collapse.querySelectorAll('.nav-link').forEach(function (link) {
+                        link.addEventListener('click', function () {
+                            if (!toggler.classList.contains('d-none')) {
+                                var bsCollapse = bootstrap.Collapse.getOrCreateInstance(collapse);
+                                bsCollapse.hide();
+                            }
+                        });
+                    });
+                });
+                var ro = new ResizeObserver(check);
+                ro.observe(nav);
+            })();
+        </script>
+        <!-- Search Modal -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header border-0 pb-0">
+                        <div class="input-group"> <span class="input-group-text bg-white border-end-0" style="border-radius: 8px 0 0 8px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001l3.85 3.85a1 1 0 0 0 1.415-1.415l-3.85-3.85zm-5.242 1.656a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11z"/></svg>
+              </span>
+
+                            <input type="text" id="searchInput" class="form-control border-start-0 ps-0" placeholder="Search courses and sections… (Ctrl+K)" autocomplete="off" style="border-radius: 0 8px 8px 0; box-shadow: none;">
+                        </div>
+                        <button type="button" class="btn-close ms-2" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body pt-2 px-0">
+                        <div id="searchResults">
+                            <p class="text-muted px-3">Start typing to search…</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <style>
+            .search-highlight {
+                background-color: rgba(255, 193, 7, 0.4);
+                padding: 0 1px;
+                border-radius: 2px;
+                font-weight: 600;
+            }
+            .text-truncate-multiline {
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+            }
+        </style>
+        <main>
+            <div class="container-fluid" style="background-size: cover; background-image: url('https://ifi-diagnostik-project.github.io/assets/img/slogan_hero.jpg'); background-position: center center; background-repeat: no-repeat;">
+                <section class="py-5 text-center container">
+                    <div class="row py-lg-5">
+                        <div class="col-lg-6 col-md-8 mx-auto">
+                             <h1 class="fw-light"><span style="background-color: rgba(26, 47, 94, 0.75); padding: 10px; color: white; border-radius: 5px;">
+  DiAgnostiK Lehr- und Lernraum
+</span>
+</h1>
+
+                            <p class="lead text-muted">
+                                <br> <span style="background-color: rgba(201, 168, 76, 0.75); padding: 8px; color: white; border-radius: 5px;">
+  Belehrungen
+</span>
+
+                            </p>
+                            <select id="categorySelect" class="form-select" aria-label="Default select example" onchange="addCategoryChip(this.value)">
+                                <option value="" selected>All categories</option>
+                                <option value="belehrung">belehrung</option>
+                                <option value="brandschutz">brandschutz</option>
+                                <option value="dresden">dresden</option>
+                                <option value="hausordnung">hausordnung</option>
+                                <option value="pirna">pirna</option>
+                            </select>
+                            <div id="chipsContainer" class="mt-3"></div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="album py-5 bg-light">
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-xl-3 g-3">
+                        <div class='col-12'>
+                            <div style="padding: 20px; background-color: rgba(26, 47, 94, 0.1); border-radius: 8px; margin: 20px 0;">
+                                 <h2>📋 Belehrungen für Betrieb und Ausbildung</h2>
+
+                                <p>Diese Sammlung stellt <strong>digitale Belehrungs- und Unterweisungsmodule</strong> bereit, die in Betrieb und Ausbildungsstätte eingesetzt werden können.</p>
+                                <p>Enthalten sind eine allgemeine Erstbelehrung sowie die Haus- und Brandschutzordnung – ergänzt durch weitere Belehrungsinhalte in Video- und Interaktivformat.</p>
+                            </div>
+                        </div>
+                        <div class='col'>
+                            <div class="card shadow-sm m-1" style="height: 100%" data-category="belehrung|brandschutz|hausordnung|pirna">
+                                <div class="card-img-top" style="background-size: cover; height: 175px; background-image: url('https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Belehrung/refs/heads/main/belehrung/assets/image/haus-und-brandschutzordnung-pirna.png'); background-position: center center; background-repeat: no-repeat;"></div>
+                                <div class="card-body" style="transform: rotate(0);"> <a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Belehrung/refs/heads/main/belehrung/haus-und-brandschutzordnung-pirna.md" target="_blank" class="link-dark stretched-link">
+            <h5 class="card-title">Haus- und Brandschutzordung (Pirna)</h5>
+        </a>
+
+                                    <p class="card-text">Der Kurs vermittelt die Haus- und Werkstattordnung des BTZ Pirna, ebenfalls gegliedert in allgemeine Hausordnung und Werkstatt-/Laborordnung. Schwerpunkte sind das Verhalten im Brandfall sowie weitere gefahrdrohende Situationen und die Regeln zur sicheren Nutzung der Räumlichkeiten und Werkstätten. Wie beim Dresden-Kurs sichern eingebettete Wissenstests das Behalten der Inhalte.</p>
+                                    <p><span style="display: inline; white-space: break-spaces;" class="badge rounded-pill bg-light text-dark">Belehrung</span><span style="display: inline; white-space: break-spaces;" class="badge rounded-pill bg-light text-dark">Brandschutz</span><span style="display: inline; white-space: break-spaces;" class="badge rounded-pill bg-light text-dark">Hausordnung</span><span style="display: inline; white-space: break-spaces;" class="badge rounded-pill bg-light text-dark">Pirna</span>
+
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="dropdown"> <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+      Download ...
+    </a>
+
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="">
+                                            <li><a class="dropdown-item btn-sm" target="_blank" href="assets/pdf/03409cda3.pdf">PDF</a>
+
+                                            </li>
+                                            <li><a class="dropdown-item btn-sm" href="assets/scorm12/03409cda3.zip">SCORM 1.2</a>
+
+                                            </li>
+                                            <li><a class="dropdown-item btn-sm" href="assets/scorm2004/03409cda3.zip">SCORM 2004</a>
+
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col'>
+                            <div class="card shadow-sm m-1" style="height: 100%" data-category="belehrung|brandschutz|hausordnung|dresden">
+                                <div class="card-img-top" style="background-size: cover; height: 175px; background-image: url('https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Belehrung/refs/heads/main/belehrung/assets/image/haus-und-brandschutzordnung-dresden-karte.png'); background-position: center center; background-repeat: no-repeat;"></div>
+                                <div class="card-body" style="transform: rotate(0);"> <a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Belehrung/refs/heads/main/belehrung/haus-und-brandschutzordnung-dresden.md" target="_blank" class="link-dark stretched-link">
+            <h5 class="card-title">Haus- und Brandschutzordung (Dresden)</h5>
+        </a>
+
+                                    <p class="card-text">Der Kurs vermittelt die Haus- und Werkstattordnung der Handwerkskammer Dresden in zwei Abschnitten: allgemeine Hausordnung und Werkstatt-/Laborordnung. Er behandelt Verhalten im Brandfall, Notfälle wie Bombendrohung und Amoklauf sowie Verbote (Rauchen, Alkohol/Drogen, Waffen, Extremismus) und Haftungsregeln. Interaktive Wissenstests zu beiden Abschnitten prüfen das Verständnis der Sicherheits- und Ordnungsvorschriften.</p>
+                                    <p><span style="display: inline; white-space: break-spaces;" class="badge rounded-pill bg-light text-dark">Belehrung</span><span style="display: inline; white-space: break-spaces;" class="badge rounded-pill bg-light text-dark">Brandschutz</span><span style="display: inline; white-space: break-spaces;" class="badge rounded-pill bg-light text-dark">Hausordnung</span><span style="display: inline; white-space: break-spaces;" class="badge rounded-pill bg-light text-dark">Dresden</span>
+
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="dropdown"> <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+      Download ...
+    </a>
+
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="">
+                                            <li><a class="dropdown-item btn-sm" target="_blank" href="assets/pdf/33213086.pdf">PDF</a>
+
+                                            </li>
+                                            <li><a class="dropdown-item btn-sm" href="assets/scorm12/33213086.zip">SCORM 1.2</a>
+
+                                            </li>
+                                            <li><a class="dropdown-item btn-sm" href="assets/scorm2004/33213086.zip">SCORM 2004</a>
+
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col'>
+                            <div class="card shadow-sm m-1" style="height: 100%" data-category="belehrung">
+                                <div class="card-body" style="transform: rotate(0);"> <a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Haus-und-Brandschutzordnung-Pirna/refs/heads/main/README.md" target="_blank" class="link-dark stretched-link">
+            <h5 class="card-title">Haus- und Brandschutzordung</h5>
+        </a>
+
+                                    <p class="card-text">Berufsbildungs- und Technologiezentrum Pirna</p>
+                                    <p><span style="display: inline; white-space: break-spaces;" class="badge rounded-pill bg-light text-dark">Belehrung</span>
+
+                                    </p>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="dropdown"> <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+      Download ...
+    </a>
+
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="">
+                                            <li><a class="dropdown-item btn-sm" target="_blank" href="assets/pdf/7b242f00.pdf">PDF</a>
+
+                                            </li>
+                                            <li><a class="dropdown-item btn-sm" href="assets/scorm12/7b242f00.zip">SCORM 1.2</a>
+
+                                            </li>
+                                            <li><a class="dropdown-item btn-sm" href="assets/scorm2004/7b242f00.zip">SCORM 2004</a>
+
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='col-12'>
+                            <div style="padding: 20px; background-color: rgba(201, 168, 76, 0.1); border-radius: 8px; margin: 20px 0;">
+                                 <h2>🚧 Weitere Belehrungen</h2>
+
+                                <iframe height="360" width="640" style="width: 100%; aspect-ratio: 16/9;" src="https://www.youtube.com/embed/a6yfTFOuqIk?si=seYaqxb5a9j2u44N&amp;start=567" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </main>
+        <footer class="text-muted py-3">
+            <div class="container">
+                <p class="float-end"> <a href="#" aria-label="Go to top">↑ Top</a>
+
+                </p>
+                <p>
+                    <div class="d-flex flex-wrap align-items-center justify-content-between gap-3 py-1 w-100">
+                        <div>
+                            <div class="text-uppercase small mb-1" style="letter-spacing:.07em;font-size:.72em;">Webseite</div> <a href="https://uelu-digital.de/" class="fw-semibold text-decoration-none" style="color:#C9A84C;">uelu-digital.de</a>
+
+                        </div>
+                        <div class="text-center">
+                            <div class="text-uppercase small mb-1" style="letter-spacing:.07em;font-size:.72em;">Gefördert durch</div>
+                            <img src="https://ifi-diagnostik-project.github.io/assets/img/Kombi-EU-SN-horizontal.jpg" style="height:44px;max-width:100%;object-fit:contain;">
+                        </div>
+                        <div class="text-md-end">
+                            <div class="text-uppercase small mb-1" style="letter-spacing:.07em;font-size:.72em;">Unsere Partner</div>
+                            <div class="d-flex flex-wrap gap-2 align-items-center justify-content-md-end"> <a href="https://www.gkz-ev.de/"><img src="https://ifi-diagnostik-project.github.io/assets/img/gkz.jpg" style="height:40px;object-fit:contain;border-radius:4px;opacity:.8;" class="img-fluid" alt="GKZ"></a>
+ <a href="https://www.hwk-dresden.de/"><img src="https://ifi-diagnostik-project.github.io/assets/img/hwk.png" style="height:40px;object-fit:contain;border-radius:4px;opacity:.8;" class="img-fluid" alt="HWK Dresden"></a>
+ <a href="https://tu-freiberg.de/"><img src="https://ifi-diagnostik-project.github.io/assets/img/tubaf.png" style="height:40px;object-fit:contain;border-radius:4px;opacity:.8;" class="img-fluid" alt="TU Bergakademie Freiberg"></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </p>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/minisearch@7/dist/umd/index.min.js"></script>
+        <script>
+            // Compact index: [{t, g, i, u, s: [[sectionTitle, sectionContent], ...]}]
+            // Denormalize into flat records for MiniSearch
+            var SEARCH_INDEX = JSON.parse("[{\"t\":\"Haus- und Brandschutzordung (Pirna)\",\"g\":[\"Belehrung\",\"Brandschutz\",\"Hausordnung\",\"Pirna\"],\"i\":\"https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Belehrung/refs/heads/main/belehrung/assets/image/haus-und-brandschutzordnung-pirna.png\",\"u\":\"https://LiaScript.github.io/course/?https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Belehrung/refs/heads/main/belehrung/haus-und-brandschutzordnung-pirna.md\",\"s\":[[\"Haus- und Brandschutzordung (Pirna)\",\"Berufsbildungs- und Technologiezentrum Pirna Hallo liebe Kursteilnehmer, in Vorbereitung unserer gemeinsamen Arbeit werden wir nun zunächst die Ordnungen der Handwerkskammer Dresden gemeinsam durcharbeiten und dabei auf die für diese Veranstaltung zentralen Vorgaben eingehen. Dafür habe ich zwei Abschnitte vorgesehen, die wir nun Schritt für Schritt thematisieren. Diese umfasst die Belehrung aber auch allgemeine Hinweise zum Gelände des Ausbildungszentrums. Haus- und Werkstattordnung bezeichnet eine Sammlung von Regeln und Vorschriften, die für das Verhalten und die Nutzung von Räumlichkeiten in einem Gebäude oder einer Werkstatt gelten. Sie legt fest, welche Sicherheitsmaßnahmen einzuhalten sind, welche Verantwortlichkeiten bestehen und welche Verhaltensweisen erwartet werden, um einen geordneten und sicheren Betrieb zu gewährleisten. Klicken Sie unten auf den Pfeilen, um im Dokument zu navigieren.\"],[\"I. Allgemeine Hausordnung\",\"!?▶️ Verhalten im Brandfall und bei gefahrdrohenden Situationen: !?▶️ Verlassen Sie das Gebäude auf dem kürzesten Fluchtweg, entsprechend Flucht- und Rettungsplan, benutzen Sie keinen Aufzug, unterstützen Sie Behinderte. !?▶️ Sammeln Sie sich sofort an ausgewiesenen Sammelstellen. !?▶️ In Brand geratenen elektrischen Anlagen oder Geräte sind vom Netz zu trennen. !?▶️ Verletzungen sind von den Ersthelfern zu versorgen und in das Erste-Hilfe-Buch einzutragen. !?▶️ Der Empfänger von Bombendrohungen hat sofort seinen Vorgesetzten über die Art und den Inhalt der Drohung zu informieren. !?▶️ Im Falle eines Amoklaufs ist die Polizei (110) und die Verwaltung des BTZ Pirna (intern 471 oder extern 3501 4618870) zu informieren. !?▶️ Das Tragen und Nutzen von Zeichen und Materialien (Bekleidung, Bild- und Tonträgern, Bücher, Grußformen, Parolen, Propagandamittel und Formulierungen der Volksverhetzung u.a.), die darauf schließen lassen, dass ein Kontakt zu extremistischem Gedankengut bzw. Gruppierungen besteht, ist verboten. !?▶️ Das Rauchen ist, mit Ausnahme in den festgelegten Raucherzonen, im gesamten Objekt verboten. !?▶️ Der Konsum von alkoholischen Getränken und sonstiger Rauschmittel ist grundsätzlich verboten. Dieses Verbot schließt den Vertrieb oder die Weitergabe sonstiger Rauschmittel ein. Verstöße gegen das Betäubungsmittelgesetz werden zur Anzeige gebracht. !?▶️ Waffen jeglicher Art, auch Schreckschuss- oder Luftdruckwaffen, sind im Objekt verboten. !?▶️ Im Gelände gilt die STVO, das Abstellen von Fahrzeugen geschieht auf eigene Gefahr. Widerrechtlich abgestellte Fahrzeuge werden kostenpflichtig abgeschleppt. Außerhalb der Lehrgangszeiten sind die Einfahrtstore geschlossen. In dieser Zeit sind das Befahren des Geländes mit Kraftfahrzeugen sowie das Parken grundsätzlich nicht gestattet. !?▶️ Die Handwerkskammer Dresden haftet nicht für abhanden gekommene Sachen und Wertgegenstände (Bekleidung, Wertsachen, etc.). !?▶️ Während des Unterrichts und bei Prüfungen sind Handys grundsätzlich abzuschalten.\"],[\"Wissenstest\",\"Was ist im Brandfall zu tun? Gebäude auf kürzestem Fluchtweg verlassen, keinen Aufzug benutzen Zunächst persönliche Sachen aus dem Raum holen Auf den Aufzug warten Behinderten Menschen helfen Ordnen Sie die Situationen den richtigen Verhaltensweisen zu. | Situation | Verhaltensweise | | | | | Sammelstelle | [->] | | Erste Hilfe | [->] | | Bombendrohung | [->] | | Amoklauf | [->[(Polizei (110) und Verwaltung benachrichtigen)]] | Welche Aussagen zur Hausordnung sind korrekt? Rauchen ist nur in ausgewiesenen Zonen erlaubt. Alkoholische Getränke dürfen in Pausen konsumiert werden. Waffen jeglicher Art sind verboten. Handys dürfen während Prüfungen eingeschaltet bleiben.\"],[\"II. Werkstatt- und Laborordnung\",\"!?▶️ Den Weisungen der Lehrer/Ausbilder ist unbedingt Folge zu leisten. !?▶️ Die Bedienung der Unterrichtstechnik obliegt ausschließlich den Dozenten. !?▶️ Sicherheits- und Arbeitsschutzbestimmungen sowie Werkstattordnungen und Belehrungen des Ausbilders sind einzuhalten. !?▶️ In den Werkstätten, Computerkabinetten bzw. Laboren ist das Essen nicht gestattet. Nutzen Sie die Pausenecken bzw. den Speisesaal. !?▶️ Die Aufstellung der Tische und Stühle in den Seminarräumen ist beizubehalten. !?▶️ Der Aufenthalt in Werkstätten und Labors sowie im Computerkabinett sowie das Arbeiten am Computer sind nur in Anwesenheit und nach Aufforderung des Dozenten/Ausbilders gestattet. !?▶️ Es ist unzulässig selbständig Software auf dem Computer zu installieren oder Kopien installierter Software zu erstellen. Des Weiteren ist das Herunterladen von Daten jeglicher Art aus sowie das Surfen auf pornographischen, gewaltverherrlichenden oder extremistischen Seiten im World Wide Web verboten. !?▶️ Gewaltanwendungen jeglicher Art sind verboten. Teilnehmer haften für mutwillig beschädigte oder entwendete Werkstatt- bzw. Laboreinrichtungen und Gegenstände in Höhe des Wiederbeschaffungswertes. !?▶️ Die Werkstätten des BTZ Pirna dürfen nur mit Arbeitsschutzbekleidung sowie Arbeitsschutzschuhen betreten werden. !?▶️ Die jeweils geltenden aushängenden Betriebsanweisungen sind zu beachten. !?▶️ Bei Fehlzeiten während der Ausbildung sind entsprechende Nachweise zu erbringen. !?▶️ Beim Verlassen des Objekts ist der zuständige Ausbilder zu informieren, ohne Abmeldung kein Versicherungsschutz. !?▶️ Im Übrigen gilt die öffentliche aushängende Haus- und Brandschutzordnung der Handwerkskammer Dresden in der jeweils gültigen Fassung. Berücksichtigung von Beeiträchtigungen Bitte informieren Sie Ihren Ausbilder über individuelle Beeinträchtigungen (z.B. Medikamenteneinnahme, körperliche Behinderungen), die bei der Durchführung des ÜLU-Kurses berücksitigt werden müssen. Diese Information wir selbstverständlich vertraulich behandelt.\"],[\"Wissenstest\",\"Welche Regeln gelten in Werkstätten und Laboren? Essen ist dort verboten. Software darf eigenständig installiert werden. Sicherheits- und Arbeitsschutzbestimmungen müssen eingehalten werden. Man darf auch ohne Dozent/Ausbilder arbeiten. Ordnen Sie die Vorschriften den richtigen Bereichen zu. Arbeitsschutzkleidung -> [->]\\\\ Dozenten -> [->]\\\\ Teilnehmer -> [->]\\\\ Ausbilder -> [->] Welche Aussagen sind richtig oder falsch? In Werkstätten darf nur unter Aufsicht des Ausbilders gearbeitet werden. Das Surfen auf beliebigen Internetseiten ist erlaubt. Gewaltanwendungen jeglicher Art sind verboten. Die Aufstellung der Tische und Stühle darf beliebig verändert werden.\"],[\"Umfrage\",\"Zum Schluss bitten wir Sie um Ihre Meinung. Sie haben die Belehrung gerade gemeinsam im Klassenraum über den Beamer verfolgt und die Fragen auf Ihrem eigenen Gerät beantwortet. Dieses Vorgehen ist Teil eines Versuchs im Projekt DiAgnostiK: Wir prüfen, ob sich Belehrungen als Online-Kurs mit Videos und Wissenstests für die Berufsschule eignen. Die Umfrage ist anonym und dauert etwa drei Minuten. Die Ergebnisse werden nur in zusammengefasster Form ausgewertet und können in einer wissenschaftlichen Veröffentlichung zum Projekt und zu LiaScript verwendet werden. Bitte klicken Sie nach jeder Frage auf Abschicken.\"],[\"Zur Nutzung\",\"Womit haben Sie die Fragen beantwortet? Smartphone Tablet Laptop oder PC Gar nicht, ich habe nur am Beamer zugeschaut Haben Sie vorher schon einmal einen Online-Kurs bearbeitet? Ja, häufig Ja, gelegentlich Nein, das war der erste Wie war das Tempo der Belehrung? Zu schnell Genau richtig Zu langsam Wie gut konnten Sie dem Kurs folgen? 1 = stimme gar nicht zu, 5 = stimme voll zu [(1)(2)(3)(4)(5)] [ ] Der Text am Beamer war gut lesbar. [ ] Die Videos am Beamer waren gut zu erkennen. [ ] Der Sprecher war gut zu verstehen. [ ] Ich wusste immer, welche Frage gerade auf meinem Gerät zu beantworten ist. Gab es technische Probleme? (Mehrfachauswahl möglich) Nein, alles hat funktioniert Ich konnte mich nicht mit dem Klassenraum verbinden Antworten ließen sich nicht abschicken Die Ergebnisse der Klasse wurden nicht angezeigt Die Seite hat lange geladen Sonstiges (bitte unten beschreiben) Falls Sonstiges, was genau?\"],[\"Zur Belehrung\",\"Wie sehr stimmen Sie den folgenden Aussagen zu? 1 = stimme gar nicht zu, 5 = stimme voll zu [(1)(2)(3)(4)(5)] [ ] Die Inhalte waren verständlich erklärt. [ ] Die Videos haben mir geholfen, die Regeln zu verstehen. [ ] Die gesprochene Erklärung war hilfreich. [ ] Die Bilder passten gut zu den Regeln. [ ] Die Wissenstests haben mir geholfen, das Gelernte zu überprüfen. [ ] Ich weiß jetzt, wie ich mich im Brandfall oder Notfall verhalten muss. [ ] Die Belehrung war zu lang. [ ] Ich habe mich beim Zuschauen gelangweilt. Was war unklar oder hat gefehlt?\"],[\"Zum Verfahren\",\"Wie sehr stimmen Sie den folgenden Aussagen zu? 1 = stimme gar nicht zu, 5 = stimme voll zu [(1)(2)(3)(4)(5)] [ ] Die Kombination aus Beamer und eigenem Gerät hat gut funktioniert. [ ] Es hat mir gefallen, die Wissenstests gemeinsam in der Klasse zu beantworten. [ ] Es war hilfreich, die Ergebnisse der ganzen Klasse direkt zu sehen. [ ] Diese Belehrung gefällt mir besser als eine rein mündliche Belehrung. [ ] Ich habe mir die Inhalte so besser gemerkt als bei einer rein mündlichen Belehrung. [ ] Ich hätte den Kurs lieber allein in meinem eigenen Tempo bearbeitet. [ ] Ich würde weitere Belehrungen gern in diesem Format bearbeiten. [ ] Ich würde dieses Format auch für andere Unterrichtsthemen nutzen. Wie sollten Belehrungen künftig durchgeführt werden? Gemeinsam im Klassenraum über den Beamer, wie heute Allein am eigenen Gerät, im eigenen Tempo Mündlich durch den Ausbilder, ohne Online-Kurs Ist mir egal Welche Schulnote geben Sie dem Kurs insgesamt? 1 (sehr gut) 2 (gut) 3 (befriedigend) 4 (ausreichend) 5 (mangelhaft) 6 (ungenügend) Beschreiben Sie den Kurs in drei Stichworten (durch Komma getrennt): Was sollten wir verbessern? Vielen Dank für Ihre Teilnahme!\"]]},{\"t\":\"Haus- und Brandschutzordung (Dresden)\",\"g\":[\"Belehrung\",\"Brandschutz\",\"Hausordnung\",\"Dresden\"],\"i\":\"https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Belehrung/refs/heads/main/belehrung/assets/image/haus-und-brandschutzordnung-dresden-karte.png\",\"u\":\"https://LiaScript.github.io/course/?https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Belehrung/refs/heads/main/belehrung/haus-und-brandschutzordnung-dresden.md\",\"s\":[[\"Haus- und Brandschutzordung (Dresden)\",\"Handwerkskammer Dresden Hallo liebe Kursteilnehmer, in Vorbereitung unserer gemeinsamen Arbeit werden wir nun zunächst die Ordnungen der Handwerkskammer Dresden gemeinsam durcharbeiten und dabei auf die für diese Veranstaltung zentralen Vorgaben eingehen. Dafür habe ich zwei Abschnitte vorgesehen, die wir nun Schritt für Schritt thematisieren. Diese umfasst die Belehrung aber auch allgemeine Hinweise zum Gelände der Handwerkskammer. Haus- und Werkstattordnung bezeichnet eine Sammlung von Regeln und Vorschriften, die für das Verhalten und die Nutzung von Räumlichkeiten in einem Gebäude oder einer Werkstatt gelten. Sie legt fest, welche Sicherheitsmaßnahmen einzuhalten sind, welche Verantwortlichkeiten bestehen und welche Verhaltensweisen erwartet werden, um einen geordneten und sicheren Betrieb zu gewährleisten. Klicken Sie unten auf den Pfeilen, um im Dokument zu navigieren.\"],[\"I. Allgemeine Hausordnung\",\"!?▶️ Verletzungen sind von den Ersthelfern zu versorgen und in das Erste-Hilfe-Buch einzutragen. !?▶️ Der Empfänger von Bombendrohungen hat sofort seinen Vorgesetzten über die Art und den Inhalt der Drohung zu informieren. !?▶️ Im Falle eines Amoklaufs ist sofort die Polizei (110) und der Empfang der Handwerkskammer (intern 30/31 oder extern 0351 4640-30) zu informieren. !?▶️ Das Tragen und Nutzen von Zeichen und Materialien (Bekleidung, Bild- und Tonträger, Bücher, Grußformen, Parolen, Propagandamittel und Formulierungen der Volksverhetzung u. a.), die darauf schließen lassen, dass ein Kontakt zu extremistischem Gedankengut bzw. Gruppierungen besteht, ist verboten. !?▶️ Das Rauchen ist, mit Ausnahme in den festgelegten Raucherzonen, im gesamten Objekt verboten. !?▶️ Der Konsum von alkoholischen Getränken und sonstiger Rauschmittel ist grundsätzlich verboten. Dieses Verbot schließt den Vertrieb oder die Weitergabe sonstiger Rauschmittel ein. Verstöße gegen das Betäubungsmittelgesetz werden zur Anzeige gebracht. !?▶️ Waffen jeglicher Art, auch Schreckschuss- oder Luftdruckwaffen, sind im Objekt verboten. !?▶️ In der Zeit von 22:00 Uhr bis 05:00 Uhr sind die Einfahrtstore verschlossen. In dieser Zeit ist das Befahren des Geländes mit Kraftfahrzeugen grundsätzlich nicht gestattet. !?▶️ Die Handwerkskammer Dresden haftet nicht für abhanden gekommene Sachen und Gegenstände (Bekleidung, Wertsachen etc.). !?▶️ Während des Unterrichts und bei Prüfungen sind Handys grundsätzlich auszuschalten. !?▶️ Verhalten im Brandfall und bei gefahrdrohenden Situationen: !?▶️ Verlassen Sie das Gebäude auf dem kürzesten, nächstliegenden Fluchtweg, entsprechend Flucht- und Rettungsplan, benutzen Sie keinen Aufzug. Unterstützen Sie Behinderte. !?▶️ Sammeln Sie sich sofort an den ausgewiesenen Sammelstellen. !?▶️ In Brand geratene elektrische Anlagen oder Geräte sind vom Netz zu trennen.\"],[\"Wissenstest\",\"Was ist im Brandfall zu tun? Gebäude auf kürzestem Fluchtweg verlassen, keinen Aufzug benutzen Zunächst persönliche Sachen aus dem Raum holen Auf den Aufzug warten Behinderten Menschen helfen Ordnen Sie die Situationen den richtigen Verhaltensweisen zu. | Situation | Verhaltensweise | | | | | Sammelstelle | [->] | | Erste Hilfe | [->] | | Bombendrohung | [->] | | Amoklauf | [->[(Polizei (110) und Empfang der Handwerkskammer benachrichtigen)]] | Welche Aussagen zur Hausordnung sind korrekt? Rauchen ist nur in ausgewiesenen Zonen erlaubt. Alkoholische Getränke dürfen in Pausen konsumiert werden. Waffen jeglicher Art sind verboten. Handys dürfen während Prüfungen eingeschaltet bleiben. Extremistische Symbole und Materialien sind verboten. Nachts dürfen Fahrzeuge jederzeit auf das Gelände fahren.\"],[\"II. Werkstatt- und Laborordnung\",\"!?▶️ Den Weisungen der Lehrer/Ausbilder ist unbedingt Folge zu leisten. !?▶️ Die Werkstätten dürfen nur mit Arbeitsschutzbekleidung sowie Arbeitsschutzschuhen betreten werden. !?▶️ Die jeweils geltenden aushängenden Betriebsanweisungen sind zu beachten. !?▶️ Keine Arbeit an unter Spannung stehenden Teilen! !?▶️ Die Bedienung der Unterrichtstechnik obliegt ausschließlich dem Dozenten. !?▶️ Gewaltanwendungen jeglicher Art sind verboten. Teilnehmer haften für mutwillig beschädigte oder entwendete Werkstatt- bzw. Laboreinrichtungen und Gegenstände in Höhe des Wiederbeschaffungswertes. !?▶️ Die Aufstellung der Tische und Stühle in den Seminarräumen ist beizubehalten. !?▶️ Der Aufenthalt in Werkstätten und Labors sowie im Computerkabinett sowie das Arbeiten am Computer sind nur in Anwesenheit und nach Aufforderung des Dozenten/Ausbilders gestattet. !?▶️ Es ist unzulässig, selbständig Software auf dem Computer zu installieren oder Kopien installierter Software zu erstellen. Des Weiteren ist das Herunterladen von Daten jeglicher Art aus sowie das Surfen auf pornographischen, gewaltverherrlichenden oder extremistischen Seiten im World Wide Web verboten. !?▶️ Im Computerkabinett und in Labors ist der Verzehr von Speisen und Getränken nicht gestattet.\"],[\"Wissenstest\",\"Welche Regeln gelten in Werkstätten und Laboren? Essen und Trinken sind im Computerkabinett und in Labors verboten. Software darf eigenständig installiert werden. Die Werkstätten dürfen nur mit Arbeitsschutzbekleidung betreten werden. Man darf auch ohne Dozent im Computerkabinett arbeiten. Ordnen Sie die Vorschriften den richtigen Bereichen zu. Arbeitsschutzkleidung -> [->]\\\\ Dozent -> [->]\\\\ Teilnehmer -> [->]\\\\ Lehrer/Ausbilder -> [->] Welche Aussagen sind richtig oder falsch? An unter Spannung stehenden Teilen darf nicht gearbeitet werden. Das Surfen auf beliebigen Internetseiten ist erlaubt. Gewaltanwendungen jeglicher Art sind verboten. Die Aufstellung der Tische und Stühle darf beliebig verändert werden.\"],[\"Umfrage\",\"Zum Schluss bitten wir Sie um Ihre Meinung. Sie haben die Belehrung gerade gemeinsam im Klassenraum über den Beamer verfolgt und die Fragen auf Ihrem eigenen Gerät beantwortet. Dieses Vorgehen ist Teil eines Versuchs im Projekt DiAgnostiK: Wir prüfen, ob sich Belehrungen als Online-Kurs mit Videos und Wissenstests für die Berufsschule eignen. Die Umfrage ist anonym und dauert etwa drei Minuten. Die Ergebnisse werden nur in zusammengefasster Form ausgewertet und können in einer wissenschaftlichen Veröffentlichung zum Projekt und zu LiaScript verwendet werden. Bitte klicken Sie nach jeder Frage auf Abschicken.\"],[\"Zur Nutzung\",\"Womit haben Sie die Fragen beantwortet? Smartphone Tablet Laptop oder PC Gar nicht, ich habe nur am Beamer zugeschaut Haben Sie vorher schon einmal einen Online-Kurs bearbeitet? Ja, häufig Ja, gelegentlich Nein, das war der erste Wie war das Tempo der Belehrung? Zu schnell Genau richtig Zu langsam Wie gut konnten Sie dem Kurs folgen? 1 = stimme gar nicht zu, 5 = stimme voll zu [(1)(2)(3)(4)(5)] [ ] Der Text am Beamer war gut lesbar. [ ] Die Videos am Beamer waren gut zu erkennen. [ ] Der Sprecher war gut zu verstehen. [ ] Ich wusste immer, welche Frage gerade auf meinem Gerät zu beantworten ist. Gab es technische Probleme? (Mehrfachauswahl möglich) Nein, alles hat funktioniert Ich konnte mich nicht mit dem Klassenraum verbinden Antworten ließen sich nicht abschicken Die Ergebnisse der Klasse wurden nicht angezeigt Die Seite hat lange geladen Sonstiges (bitte unten beschreiben) Falls Sonstiges, was genau?\"],[\"Zur Belehrung\",\"Wie sehr stimmen Sie den folgenden Aussagen zu? 1 = stimme gar nicht zu, 5 = stimme voll zu [(1)(2)(3)(4)(5)] [ ] Die Inhalte waren verständlich erklärt. [ ] Die Videos haben mir geholfen, die Regeln zu verstehen. [ ] Die gesprochene Erklärung war hilfreich. [ ] Die Bilder passten gut zu den Regeln. [ ] Die Wissenstests haben mir geholfen, das Gelernte zu überprüfen. [ ] Ich weiß jetzt, wie ich mich im Brandfall oder Notfall verhalten muss. [ ] Die Belehrung war zu lang. [ ] Ich habe mich beim Zuschauen gelangweilt. Was war unklar oder hat gefehlt?\"],[\"Zum Verfahren\",\"Wie sehr stimmen Sie den folgenden Aussagen zu? 1 = stimme gar nicht zu, 5 = stimme voll zu [(1)(2)(3)(4)(5)] [ ] Die Kombination aus Beamer und eigenem Gerät hat gut funktioniert. [ ] Es hat mir gefallen, die Wissenstests gemeinsam in der Klasse zu beantworten. [ ] Es war hilfreich, die Ergebnisse der ganzen Klasse direkt zu sehen. [ ] Diese Belehrung gefällt mir besser als eine rein mündliche Belehrung. [ ] Ich habe mir die Inhalte so besser gemerkt als bei einer rein mündlichen Belehrung. [ ] Ich hätte den Kurs lieber allein in meinem eigenen Tempo bearbeitet. [ ] Ich würde weitere Belehrungen gern in diesem Format bearbeiten. [ ] Ich würde dieses Format auch für andere Unterrichtsthemen nutzen. Wie sollten Belehrungen künftig durchgeführt werden? Gemeinsam im Klassenraum über den Beamer, wie heute Allein am eigenen Gerät, im eigenen Tempo Mündlich durch den Ausbilder, ohne Online-Kurs Ist mir egal Welche Schulnote geben Sie dem Kurs insgesamt? 1 (sehr gut) 2 (gut) 3 (befriedigend) 4 (ausreichend) 5 (mangelhaft) 6 (ungenügend) Beschreiben Sie den Kurs in drei Stichworten (durch Komma getrennt): Was sollten wir verbessern? Vielen Dank für Ihre Teilnahme!\"]]},{\"t\":\"Haus- und Brandschutzordung\",\"g\":[\"Belehrung\"],\"i\":\"\",\"u\":\"https://LiaScript.github.io/course/?https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/Haus-und-Brandschutzordnung-Pirna/refs/heads/main/README.md\",\"s\":[[\"Haus- und Brandschutzordung\",\"Berufsbildungs- und Technologiezentrum Pirna Hallo liebe Kursteilnehmer, in Vorbereitung unserer gemeinsamen Arbeit werden wir nun zunächst die Ordnungen der Handwerkskammer Dresden gemeinsam durcharbeiten und dabei auf die für diese Veranstaltung zentralen Vorgaben eingehen. Dafür habe ich zwei Abschnitte vorgesehen, die wir nun Schritt für Schritt thematisieren. Diese umfasst die Belehrung aber auch allgemeine Hinweise zum Gelände des Ausbildungszentrums. Haus- und Werkstattordnung bezeichnet eine Sammlung von Regeln und Vorschriften, die für das Verhalten und die Nutzung von Räumlichkeiten in einem Gebäude oder einer Werkstatt gelten. Sie legt fest, welche Sicherheitsmaßnahmen einzuhalten sind, welche Verantwortlichkeiten bestehen und welche Verhaltensweisen erwartet werden, um einen geordneten und sicheren Betrieb zu gewährleisten. Klicken Sie unten auf den Pfeilen, um im Dokument zu navigieren.\"],[\"I. Allgemeine Hausordnung\",\"Verhalten im Brandfall und bei gefahrdrohenden Situationen: !?Belehrung1 Verlassen Sie das Gebäude auf dem kürzesten Fluchtweg, entsprechend Flucht- und Rettungsplan, benutzen Sie keinen Aufzug, unterstützen Sie Behinderte. !?Belehrung1 Sammeln Sie sich sofort an ausgewiesenen Sammelstellen. !?Belehrung1 In Brand geratenen elektrischen Anlagen oder Geräte sind vom Netz zu trennen. !?Belehrung1 Verletzungen sind von den Ersthelfern zu versorgen und in das Erste-Hilfe-Buch einzutragen. !?Belehrung1 Der Empfänger von Bombendrohungen hat sofort seinen Vorgesetzten über die Art und den Inhalt der Drohung zu informieren. !?Belehrung1 Im Falle eines Amoklaufs ist die Polizei (110) und die Verwaltung des BTZ Pirna (intern 471 oder extern 3501 4618870) zu informieren. !?Belehrung1 Das Tragen und Nutzen von Zeichen und Materialien (Bekleidung, Bild- und Tonträgern, Bücher, Grußformen, Parolen, Propagandamittel und Formulierungen der Volksverhetzung u.a.), die darauf schließen lassen, dass ein Kontakt zu extremistischem Gedankengut bzw. Gruppierungen besteht, ist verboten. !?Belehrung1 Das Rauchen ist, mit Ausnahme in den festgelegten Raucherzonen, im gesamten Objekt verboten. !?Belehrung1 Der Konsum von alkoholischen Getränken und sonstiger Rauschmittel ist grundsätzlich verboten. Dieses Verbot schließt den Vertrieb oder die Weitergabe sonstiger Rauschmittel ein. Verstöße gegen das Betäubungsmittelgesetz werden zur Anzeige gebracht. !?Belehrung1 Waffen jeglicher Art, auch Schreckschuss- oder Luftdruckwaffen, sind im Objekt verboten. !?Belehrung1 Im Gelände gilt die STVO, das Abstellen von Fahrzeugen geschieht auf eigene Gefahr. Widerrechtlich abgestellte Fahrzeuge werden kostenpflichtig abgeschleppt. Außerhalb der Lehrgangszeiten sind die Einfahrtstore geschlossen. In dieser Zeit sind das Befahren des Geländes mit Kraftfahrzeugen sowie das Parken grundsätzlich nicht gestattet. !?Belehrung1 Die Handwerkskammer Dresden haftet nicht für abhanden gekommene Sachen und Wertgegenstände (Bekleidung, Wertsachen, etc.). !?Belehrung1 Während des Unterrichts und bei Prüfungen sind Handys grundsätzlich abzuschalten. !?Belehrung1\"],[\"Wissenstest\",\"Was ist im Brandfall zu tun? Gebäude auf kürzestem Fluchtweg verlassen, keinen Aufzug benutzen Zunächst persönliche Sachen aus dem Raum holen Auf den Aufzug warten Behinderten Menschen helfen Ordnen Sie die Situationen den richtigen Verhaltensweisen zu. | Situation | Verhaltensweise | | | | | Sammelstelle | [->] | | Erste Hilfe | [->] | | Bombendrohung | [->] | | Amoklauf | [->[(Polizei (110) und Verwaltung benachrichtigen)]] | Welche Aussagen zur Hausordnung sind korrekt? Rauchen ist nur in ausgewiesenen Zonen erlaubt. Alkoholische Getränke dürfen in Pausen konsumiert werden. Waffen jeglicher Art sind verboten. Handys dürfen während Prüfungen eingeschaltet bleiben.\"],[\"II. Werkstatt- und Laborordnung\",\"Den Weisungen der Lehrer/Ausbilder ist unbedingt Folge zu leisten. !?[](media/Belehrung2.webm#t=0,5) Die Bedienung der Unterrichtstechnik obliegt ausschließlich den Dozenten. !?[](media/Belehrung2.webm#t=6,11) Sicherheits- und Arbeitsschutzbestimmungen sowie Werkstattordnungen und Belehrungen des Ausbilders sind einzuhalten. !?[](media/Belehrung2.webm#t=12,20) In den Werkstätten, Computerkabinetten bzw. Laboren ist das Essen nicht gestattet. Nutzen Sie die Pausenecken bzw. den Speisesaal. !?[](media/Belehrung2.webm#t=20,32) Die Aufstellung der Tische und Stühle in den Seminarräumen ist beizubehalten. !?[](media/Belehrung2.webm#t=32.5,39) Der Aufenthalt in Werkstätten und Labors sowie im Computerkabinett sowie das Arbeiten am Computer sind nur in Anwesenheit und nach Aufforderung des Dozenten/Ausbilders gestattet. !?[](media/Belehrung2.webm#t=39,50) Es ist unzulässig selbständig Software auf dem Computer zu installieren oder Kopien installierter Software zu erstellen. Des Weiteren ist das Herunterladen von Daten jeglicher Art aus sowie das Surfen auf pornographischen, gewaltverherrlichenden oder extremistischen Seiten im World Wide Web verboten. !?[](media/Belehrung2.webm#t=50,71) Gewaltanwendungen jeglicher Art sind verboten. Teilnehmer haften für mutwillig beschädigte oder entwendete Werkstatt- bzw. Laboreinrichtungen und Gegenstände in Höhe des Wiederbeschaffungswertes. !?[](media/Belehrung2.webm#t=72,86) Die Werkstätten des BTZ Pirna dürfen nur mit Arbeitsschutzbekleidung sowie Arbeitsschutzschuhen betreten werden. !?[](media/Belehrung2.webm#t=87,94) Die jeweils geltenden aushängenden Betriebsanweisungen sind zu beachten. !?[](media/Belehrung2.webm#t=95,101) Bei Fehlzeiten während der Ausbildung sind entsprechende Nachweise zu erbringen. !?[](media/Belehrung2.webm#t=101,107) Beim Verlassen des Objekts ist der zuständige Ausbilder zu informieren, ohne Abmeldung kein Versicherungsschutz. !?[](media/Belehrung2.webm#t=108,116) Im Übrigen gilt die öffentliche aushängende Haus- und Brandschutzordnung der Handwerkskammer Dresden in der jeweils gültigen Fassung. !?[](media/Belehrung2.webm#t=116) Berücksichtigung von Beeiträchtigungen__ Bitte informieren Sie Ihren Ausbilder über individuelle Beeinträchtigungen (z.B. Medikamenteneinnahme, körperliche Behinderungen), die bei der Durchführung des ÜLU-Kurses berücksitigt werden müssen. Diese Information wir selbstverständlich vertraulich behandelt.\"],[\"Wissenstest\",\"Welche Regeln gelten in Werkstätten und Laboren? Essen ist dort verboten. Software darf eigenständig installiert werden. Sicherheits- und Arbeitsschutzbestimmungen müssen eingehalten werden. Man darf auch ohne Dozent/Ausbilder arbeiten. Ordnen Sie die Vorschriften den richtigen Bereichen zu. Arbeitsschutzkleidung -> [->]\\\\ Dozenten -> [->]\\\\ Teilnehmer -> [->]\\\\ Ausbilder -> [->] Welche Aussagen sind richtig oder falsch? In Werkstätten darf nur unter Aufsicht des Ausbilders gearbeitet werden. Das Surfen auf beliebigen Internetseiten ist erlaubt. Gewaltanwendungen jeglicher Art sind verboten. Die Aufstellung der Tische und Stühle darf beliebig verändert werden.\"]]}]");
+            var FLAT_INDEX = [];
+            var _id = 0;
+            SEARCH_INDEX.forEach(function (course) {
+                for (var n = 0; n < course.s.length; n++) {
+                    var sec = course.s[n];
+                    FLAT_INDEX.push({
+                        id: _id++,
+                        courseTitle: course.t,
+                        sectionTitle: sec[0],
+                        sectionContent: sec[1],
+                        tagsText: Array.isArray(course.g) ? course.g.join(' ') : '',
+                        tagsArr: course.g || [],
+                        image: course.i,
+                        url: course.u + '#' + (n + 1),
+                    });
+                }
+            });
+
+            var miniSearch = new MiniSearch({
+                fields: ['courseTitle', 'sectionTitle', 'sectionContent', 'tagsText'],
+                storeFields: ['courseTitle', 'sectionTitle', 'sectionContent', 'tagsArr', 'image', 'url'],
+                searchOptions: {
+                    boost: {
+                        sectionTitle: 3,
+                        courseTitle: 2,
+                        tagsText: 1.5
+                    },
+                    fuzzy: 0.2,
+                    prefix: true,
+                },
+            });
+            miniSearch.addAll(FLAT_INDEX);
+
+            function highlight(text, terms) {
+                if (!text || !terms || !terms.length) return escapeHtml(text || '');
+                var pattern = new RegExp('(' + terms.join('|') + ')', 'gi');
+                return text.split(pattern).map(function (part, i) {
+                    return (i % 2 === 1) ? '<mark class="search-highlight">' + escapeHtml(part) + '</mark>' : escapeHtml(part);
+                }).join('');
+            }
+
+            function escapeHtml(str) {
+                return String(str)
+                    .replace(/&/g, '&amp;')
+                    .replace(/</g, '&lt;')
+                    .replace(/>/g, '&gt;')
+                    .replace(/"/g, '&quot;');
+            }
+
+            function excerpt(text, maxLen) {
+                if (!text) return '';
+                if (text.length <= maxLen) return text;
+                return text.slice(0, maxLen) + '…';
+            }
+
+            function renderResults(query) {
+                var container = document.getElementById('searchResults');
+                if (!query || query.length < 2) {
+                    container.innerHTML = '<p class="text-muted px-3">Start typing to search…</p>';
+                    return;
+                }
+                var results = miniSearch.search(query).slice(0, 20);
+                if (!results.length) {
+                    container.innerHTML = '<p class="text-muted px-3">No results found.</p>';
+                    return;
+                }
+
+                var html = '';
+                results.forEach(function (r) {
+                    var terms = r.terms;
+
+                    var imgHtml = r.image ? '<div class="flex-shrink-0 me-3" style="width:64px;height:48px;background-image:url(&quot;' + escapeHtml(r.image) + '&quot;);background-size:cover;background-position:center;border-radius:4px;"></div>' : '';
+
+                    var tagHtml = '';
+                    if (r.tagsArr && r.tagsArr.length) {
+                        tagHtml = '<div class="mt-1">' + r.tagsArr.map(function (t) {
+                            return '<span class="badge rounded-pill bg-light text-dark me-1" style="font-size:0.7rem;">' + escapeHtml(t) + '</span>';
+                        }).join('') + '</div>';
+                    }
+
+                    html += '<a href="' + escapeHtml(r.url) + '" target="_blank" class="list-group-item list-group-item-action py-2 px-3">' +
+                        '<div class="d-flex align-items-start">' + imgHtml +
+                        '<div class="flex-grow-1 overflow-hidden">' +
+                        '<div class="d-flex align-items-baseline gap-2">' +
+                        '<div class="fw-semibold flex-shrink-0">' + highlight(r.sectionTitle, terms) + '</div>' + (r.sectionTitle !== r.courseTitle ? '<div class="text-muted small text-truncate" style="min-width:0;">(' + highlight(r.courseTitle, terms) + ')</div>' : '') +
+                        '</div>' + (r.sectionContent ? '<div class="text-muted small text-truncate-multiline">' + highlight(excerpt(r.sectionContent, 160), terms) + '</div>' : '') + tagHtml +
+                        '</div>' +
+                        '</div>' +
+                        '</a>';
+                });
+                container.innerHTML = '<div class="list-group list-group-flush">' + html + '</div>';
+            }
+
+            document.addEventListener('DOMContentLoaded', function () {
+                var input = document.getElementById('searchInput');
+                var modal = document.getElementById('searchModal');
+
+                input.addEventListener('input', function () {
+                    renderResults(this.value.trim());
+                });
+
+                // Ctrl+K / Cmd+K shortcut
+                document.addEventListener('keydown', function (e) {
+                    if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+                        e.preventDefault();
+                        var bsModal = bootstrap.Modal.getOrCreateInstance(modal);
+                        bsModal.show();
+                    }
+                    if (e.key === 'Escape') {
+                        var bsModal = bootstrap.Modal.getInstance(modal);
+                        if (bsModal) bsModal.hide();
+                    }
+                });
+
+                modal.addEventListener('shown.bs.modal', function () {
+                    input.focus();
+                    input.select();
+                });
+
+                modal.addEventListener('hidden.bs.modal', function () {
+                    input.value = '';
+                    document.getElementById('searchResults').innerHTML = '<p class="text-muted px-3">Start typing to search…</p>';
+                });
+            });
+        </script>
+    </body>
+
+</html>
