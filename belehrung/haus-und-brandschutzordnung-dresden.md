@@ -3,6 +3,7 @@ author:   Andre Dietrich
 language: de
 narrator: Deutsch Female
 
+version:  1.0.0
 edit:     true
 date:     2026-09-07
 
@@ -333,3 +334,123 @@ data-solution-button="false"
 - [[ ]] Die Aufstellung der Tische und Stühle darf beliebig verändert werden.
 
 </section>
+
+
+## Umfrage
+
+Zum Schluss bitten wir Sie um Ihre Meinung. Sie haben die Belehrung gerade gemeinsam im Klassenraum über den Beamer verfolgt und die Fragen auf Ihrem eigenen Gerät beantwortet. Dieses Vorgehen ist Teil eines Versuchs im Projekt DiAgnostiK: Wir prüfen, ob sich Belehrungen als Online-Kurs mit Videos und Wissenstests für die Berufsschule eignen.
+
+__Die Umfrage ist anonym__ und dauert etwa drei Minuten. Die Ergebnisse werden nur in zusammengefasster Form ausgewertet und können in einer wissenschaftlichen Veröffentlichung zum Projekt und zu LiaScript verwendet werden.
+
+Bitte klicken Sie nach jeder Frage auf __Abschicken__.
+
+
+### Zur Nutzung
+
+__Womit haben Sie die Fragen beantwortet?__
+
+    [(Smartphone)] Smartphone
+    [(Tablet)] Tablet
+    [(Laptop/PC)] Laptop oder PC
+    [(keins)] Gar nicht, ich habe nur am Beamer zugeschaut
+
+__Haben Sie vorher schon einmal einen Online-Kurs bearbeitet?__
+
+    [(3)] Ja, häufig
+    [(2)] Ja, gelegentlich
+    [(1)] Nein, das war der erste
+
+__Wie war das Tempo der Belehrung?__
+
+    [(1)] Zu schnell
+    [(2)] Genau richtig
+    [(3)] Zu langsam
+
+__Wie gut konnten Sie dem Kurs folgen?__
+
+1 = stimme gar nicht zu, 5 = stimme voll zu
+
+    [(1)(2)(3)(4)(5)]
+    [               ] Der Text am Beamer war gut lesbar.
+    [               ] Die Videos am Beamer waren gut zu erkennen.
+    [               ] Der Sprecher war gut zu verstehen.
+    [               ] Ich wusste immer, welche Frage gerade auf meinem Gerät zu beantworten ist.
+
+__Gab es technische Probleme?__ (Mehrfachauswahl möglich)
+
+    [[keine]] Nein, alles hat funktioniert
+    [[Verbindung]] Ich konnte mich nicht mit dem Klassenraum verbinden
+    [[Abschicken]] Antworten ließen sich nicht abschicken
+    [[Ergebnisse]] Die Ergebnisse der Klasse wurden nicht angezeigt
+    [[Ladezeit]] Die Seite hat lange geladen
+    [[Sonstiges]] Sonstiges (bitte unten beschreiben)
+
+Falls Sonstiges, was genau?
+
+    [[___ ___]]
+
+
+### Zur Belehrung
+
+__Wie sehr stimmen Sie den folgenden Aussagen zu?__
+
+1 = stimme gar nicht zu, 5 = stimme voll zu
+
+    [(1)(2)(3)(4)(5)]
+    [               ] Die Inhalte waren verständlich erklärt.
+    [               ] Die Videos haben mir geholfen, die Regeln zu verstehen.
+    [               ] Die gesprochene Erklärung war hilfreich.
+    [               ] Die Bilder passten gut zu den Regeln.
+    [               ] Die Wissenstests haben mir geholfen, das Gelernte zu überprüfen.
+    [               ] Ich weiß jetzt, wie ich mich im Brandfall oder Notfall verhalten muss.
+    [               ] Die Belehrung war zu lang.
+    [               ] Ich habe mich beim Zuschauen gelangweilt.
+
+__Was war unklar oder hat gefehlt?__
+
+    [[___ ___ ___]]
+
+
+### Zum Verfahren
+
+__Wie sehr stimmen Sie den folgenden Aussagen zu?__
+
+1 = stimme gar nicht zu, 5 = stimme voll zu
+
+    [(1)(2)(3)(4)(5)]
+    [               ] Die Kombination aus Beamer und eigenem Gerät hat gut funktioniert.
+    [               ] Es hat mir gefallen, die Wissenstests gemeinsam in der Klasse zu beantworten.
+    [               ] Es war hilfreich, die Ergebnisse der ganzen Klasse direkt zu sehen.
+    [               ] Diese Belehrung gefällt mir besser als eine rein mündliche Belehrung.
+    [               ] Ich habe mir die Inhalte so besser gemerkt als bei einer rein mündlichen Belehrung.
+    [               ] Ich hätte den Kurs lieber allein in meinem eigenen Tempo bearbeitet.
+    [               ] Ich würde weitere Belehrungen gern in diesem Format bearbeiten.
+    [               ] Ich würde dieses Format auch für andere Unterrichtsthemen nutzen.
+
+__Wie sollten Belehrungen künftig durchgeführt werden?__
+
+    [(gemeinsam)] Gemeinsam im Klassenraum über den Beamer, wie heute
+    [(allein)] Allein am eigenen Gerät, im eigenen Tempo
+    [(muendlich)] Mündlich durch den Ausbilder, ohne Online-Kurs
+    [(egal)] Ist mir egal
+
+__Welche Schulnote geben Sie dem Kurs insgesamt?__
+
+    [(1)] 1 (sehr gut)
+    [(2)] 2 (gut)
+    [(3)] 3 (befriedigend)
+    [(4)] 4 (ausreichend)
+    [(5)] 5 (mangelhaft)
+    [(6)] 6 (ungenügend)
+
+__Beschreiben Sie den Kurs in drei Stichworten__ (durch Komma getrennt):
+
+    [[___]]
+
+__Was sollten wir verbessern?__
+
+    [[___ ___ ___]]
+
+---
+
+Vielen Dank für Ihre Teilnahme!
